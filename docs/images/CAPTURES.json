@@ -88,6 +88,18 @@
       "bytes": 161284,
       "file": "valley-night.jpg",
       "sha256": "e65551ca9e270169ad0d03d429d5dcf92b9ff0c0d7a88f7a4862acba22e3bad3"
+    },
+    {
+      "name": "lookout-noon",
+      "scene": "lookout",
+      "season": "autumn",
+      "framing": "wide",
+      "theme": "noon",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 215030,
+      "file": "lookout-noon.jpg",
+      "sha256": "94adacbda07df9bce2082c1e695c59b669428d93953bf1476154f65e3221d45a"
     }
   ],
   "panoramaMethod": "Seven vertical crops at their original screen coordinates, ordered Dawn to Night. No stretching, colour edits or artwork redraw. Each source is a direct 1920x1080 TV display capture.",
