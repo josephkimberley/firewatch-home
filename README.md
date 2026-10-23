@@ -1,6 +1,26 @@
 # Firewatch Home for webOS
 
+[![Four Firewatch Home scenes captured on an LG TV: Valley Morning, Snowy Valley Dusk, Lookout Afternoon and Lookout Close-up Morning](docs/images/themes-overview.png)](docs/images/themes-overview.png)
+
 An unofficial Firewatch-themed home screen for LG webOS TVs: app shortcuts, HDMI inputs, a clock and animated landscapes that change through the day. Not affiliated with or endorsed by Campo Santo.
+
+*Actual TV captures, including the clock, app logos, HDMI shortcuts and controls. Above, clockwise from top left: Valley Morning, Snowy Valley Dusk, Lookout Close-up Morning and Lookout Afternoon.*
+
+## On the TV
+
+Click any image to view its original **1920 × 1080** capture. Lighting is selected manually here; the clock displays the capture time.
+
+| Valley · Morning | Snowy Valley · Dusk |
+| --- | --- |
+| [![Valley Morning with clock and launcher controls](docs/images/valley-morning.jpg)](docs/images/valley-morning.jpg) | [![Snowy Valley Dusk with clock and launcher controls](docs/images/snowy-valley-dusk.jpg)](docs/images/snowy-valley-dusk.jpg) |
+| **Lookout · Afternoon** | **Lookout Close-up · Morning** |
+| [![Lookout Afternoon with clock and launcher controls](docs/images/lookout-afternoon.jpg)](docs/images/lookout-afternoon.jpg) | [![Lookout Close-up Morning with clock and launcher controls](docs/images/lookout-close-morning.jpg)](docs/images/lookout-close-morning.jpg) |
+| **Snowy Lookout · Morning** | **Snowy Lookout Close-up · Morning** |
+| [![Snowy Lookout Morning with clock and launcher controls](docs/images/snowy-lookout-morning.jpg)](docs/images/snowy-lookout-morning.jpg) | [![Snowy Lookout Close-up Morning with clock and launcher controls](docs/images/snowy-lookout-close-morning.jpg)](docs/images/snowy-lookout-close-morning.jpg) |
+| **Valley · Evening** | **Snowy Valley · Night** |
+| [![Valley Evening with clock and launcher controls](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg) | [![Snowy Valley Night with clock and launcher controls](docs/images/snowy-valley-night.jpg)](docs/images/snowy-valley-night.jpg) |
+
+## Development status
 
 **Private development repository, not yet an installable public release.** Repository: [josephkimberley/firewatch-home](https://github.com/josephkimberley/firewatch-home).
 

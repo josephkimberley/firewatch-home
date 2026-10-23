@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-23",
+  "source": "Direct LG webOS display captures of native 3.0.7 / back-panel-v3",
+  "clock": "Actual capture time; lighting period selected manually",
+  "individualImages": "Unretouched 1920x1080 JPEG display captures",
+  "overview": "Four-panel layout rendered from Valley Morning, Snowy Valley Dusk, Lookout Afternoon and Lookout Close-up Morning captures; resized only to fit each panel",
+  "screenshots": [
+    {
+      "name": "valley-morning",
+      "scene": "valley",
+      "season": "autumn",
+      "framing": "wide",
+      "theme": "morning",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 185845,
+      "file": "valley-morning.jpg",
+      "sha256": "578780ca33ea7601cf76f76e868c76cb70e4e60f3cd600d59d0f8edc9ec875b5"
+    },
+    {
+      "name": "snowy-valley-dusk",
+      "scene": "valley",
+      "season": "winter",
+      "framing": "wide",
+      "theme": "dusk",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 307866,
+      "file": "snowy-valley-dusk.jpg",
+      "sha256": "31beae1ce9bf594026a75f2546830751d4d79af23b9b41a3051a93580f6d1220"
+    },
+    {
+      "name": "lookout-afternoon",
+      "scene": "lookout",
+      "season": "autumn",
+      "framing": "wide",
+      "theme": "afternoon",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 195367,
+      "file": "lookout-afternoon.jpg",
+      "sha256": "2731488614f9d5b01777e583ce5fa23a5aeb59f213ddcb4e4f9c258642fde56d"
+    },
+    {
+      "name": "lookout-close-morning",
+      "scene": "lookout",
+      "season": "autumn",
+      "framing": "close",
+      "theme": "morning",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 310777,
+      "file": "lookout-close-morning.jpg",
+      "sha256": "670447497ea685cddfeec1f589361701c0b45c8b1650cabd5cd97aa71b7a2943"
+    },
+    {
+      "name": "valley-evening",
+      "scene": "valley",
+      "season": "autumn",
+      "framing": "wide",
+      "theme": "evening",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 175008,
+      "file": "valley-evening.jpg",
+      "sha256": "017158d1e14500a46e2235c68253a48591dcf20b9cf98561d07b5b468ec5c13f"
+    },
+    {
+      "name": "snowy-lookout-morning",
+      "scene": "lookout",
+      "season": "winter",
+      "framing": "wide",
+      "theme": "morning",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 269790,
+      "file": "snowy-lookout-morning.jpg",
+      "sha256": "fd18b24e4d087b0b248c77d98dee8761c3d34478636499599c57578e188c57f2"
+    },
+    {
+      "name": "snowy-lookout-close-morning",
+      "scene": "lookout",
+      "season": "winter",
+      "framing": "close",
+      "theme": "morning",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 400456,
+      "file": "snowy-lookout-close-morning.jpg",
+      "sha256": "5974c39f68de567e43757a20eb9d5fa9e8079bdd77aa2ee8626bbc8401f87ebe"
+    },
+    {
+      "name": "snowy-valley-night",
+      "scene": "valley",
+      "season": "winter",
+      "framing": "wide",
+      "theme": "night",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 296745,
+      "file": "snowy-valley-night.jpg",
+      "sha256": "a5fdd77cf27fe53c09ea3a2b0d7ca45d43dc3f51f6fc8eb88f65cdf73ee7280a"
+    }
+  ]
+}
