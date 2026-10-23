@@ -435,6 +435,92 @@
           "sha256": "6ed213df39117106bf91f6fc2c35f99276ca00af15caa3ff9efd8d937319f25f"
         }
       ]
+    },
+    {
+      "file": "snowy-lookout-day-to-night.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1157806,
+      "sha256": "2bc1310e841383776ab481825298a2167b57f49c64c52a48cfad4050fb6b2e50",
+      "sourcesLeftToRight": [
+        {
+          "name": "snowy-lookout-dawn",
+          "scene": "lookout",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "dawn",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 263605,
+          "sha256": "ea40ffb43eb7f36e781f9175026cc1cafebbd7ecb1ae79a4f003ae755c049ae0"
+        },
+        {
+          "name": "snowy-lookout-morning",
+          "scene": "lookout",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "morning",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 269835,
+          "sha256": "d55122b8092f17cf2370fff75a4909f9a1ce413133d225b759d8af66987d86dc"
+        },
+        {
+          "name": "snowy-lookout-noon",
+          "scene": "lookout",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "noon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 281466,
+          "sha256": "83af1f31b60cd85fea7885eecbcd2d6bd37596b1ef415e133ca3a05a6abf1b3f"
+        },
+        {
+          "name": "snowy-lookout-afternoon",
+          "scene": "lookout",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "afternoon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 263887,
+          "sha256": "3d9e576bb96569b8331f288b813f8b4698824076f635268b5ef9b5438527de57"
+        },
+        {
+          "name": "snowy-lookout-evening",
+          "scene": "lookout",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "evening",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 255501,
+          "sha256": "2ba6614e609b31fe1f93f8eb1bb4fcd89189246ecbcf9ffe53f94d1cc798827e"
+        },
+        {
+          "name": "snowy-lookout-dusk",
+          "scene": "lookout",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "dusk",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 246618,
+          "sha256": "6b69ff4693311578095eec9aa09f7bf44000fc7edefc0c06c988357ceb375a8b"
+        },
+        {
+          "name": "snowy-lookout-night",
+          "scene": "lookout",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "night",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 242654,
+          "sha256": "d41a467d1980df6140d09be9ecf49e0735ad9f68a20cb9583a924f2a27882a7f"
+        }
+      ]
     }
   ]
 }

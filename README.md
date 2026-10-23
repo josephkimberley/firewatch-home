@@ -34,6 +34,10 @@ Each panorama combines seven vertical slices of the same scene, captured directl
 
 [![Lookout panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-day-to-night.png)](docs/images/lookout-day-to-night.png)
 
+**Snowy Lookout**
+
+[![Snowy Lookout panorama progressing from Dawn at the left to Night at the right](docs/images/snowy-lookout-day-to-night.png)](docs/images/snowy-lookout-day-to-night.png)
+
 **Lookout Close-up**
 
 [![Lookout Close-up panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-close-day-to-night.png)](docs/images/lookout-close-day-to-night.png)
