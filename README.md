@@ -6,6 +6,8 @@
 
 An unofficial Firewatch-themed home screen for LG webOS TVs: app shortcuts, HDMI inputs, a clock and animated landscapes that change through the day. Not affiliated with or endorsed by Campo Santo.
 
+**[Browse all 42 wallpapers →](docs/GALLERY.md)**
+
 ## Four favourites
 
 | Valley · Morning | Snowy Valley · Dusk |

@@ -1,0 +1,341 @@
+{
+  "method": "Aspect-preserving downscaled JPEG previews of the included full-resolution artwork. No artwork or colour changes.",
+  "images": [
+    {
+      "file": "docs/images/artwork/valley-autumn-wide-dawn.jpg",
+      "source": "src/native/assets/autumn/dawn.jpg",
+      "sourceSha256": "8a1f3507bbe026f0f4fb33464c881f2b246c0e8917cb159086e43aa1cf285264",
+      "width": 479,
+      "height": 270,
+      "sha256": "470dc3a3da48ffce509041ee77b40ef501202cd1badb5d93bae09dbe9ff7d922"
+    },
+    {
+      "file": "docs/images/artwork/valley-autumn-wide-morning.jpg",
+      "source": "src/native/assets/autumn/morning.jpg",
+      "sourceSha256": "25bceb115e697bc4841f6e6e31b432638d5368f802a1feeab3812806225320e4",
+      "width": 479,
+      "height": 270,
+      "sha256": "cb60fc2db865ae09c3955e207054d8665e5a6fe33b9804527441b78467d2a928"
+    },
+    {
+      "file": "docs/images/artwork/valley-autumn-wide-noon.jpg",
+      "source": "src/native/assets/autumn/noon.jpg",
+      "sourceSha256": "3c718d7f5fde606104174c9631754946da3f3491dfc5238fe33ecf85af6bf542",
+      "width": 479,
+      "height": 270,
+      "sha256": "7b774cd848fac58f2f420a719bbcda056cc303aba126b67bd3e5a014d36eb925"
+    },
+    {
+      "file": "docs/images/artwork/valley-autumn-wide-afternoon.jpg",
+      "source": "src/native/assets/autumn/afternoon.jpg",
+      "sourceSha256": "13b3d0dfc1d77fe6aefc80833d903cac3a7fb027b08bc61dfebbf90f8ce974da",
+      "width": 479,
+      "height": 270,
+      "sha256": "f833cd56da3b7ad0efed51fcc98341f572a51a934d56f781cd938518b6cab40c"
+    },
+    {
+      "file": "docs/images/artwork/valley-autumn-wide-evening.jpg",
+      "source": "src/native/assets/autumn/evening-vibrant.jpg",
+      "sourceSha256": "14c8296c3ac8c958bd279606410860293d971bec11c1be5f9381c7af1b6cd2e2",
+      "width": 479,
+      "height": 270,
+      "sha256": "f04e4b7ad2ea7837c18468b5dc8d5e3735fc78f68cd02da48ead057c3495334b"
+    },
+    {
+      "file": "docs/images/artwork/valley-autumn-wide-dusk.jpg",
+      "source": "src/native/assets/autumn/dusk.jpg",
+      "sourceSha256": "795739171ff922444ce099fd0d6acd74e72c92905fdc50dc5606cbcdb8497f55",
+      "width": 479,
+      "height": 270,
+      "sha256": "17c309132016f7fb2a9ee74c6715ea33c576a70c9c4dd630fdd4b53f8ef8ce0e"
+    },
+    {
+      "file": "docs/images/artwork/valley-autumn-wide-night.jpg",
+      "source": "src/native/assets/autumn/night.jpg",
+      "sourceSha256": "0a6ed4b021fa6af8d9eb854171a2c909329c2f3c430a4e3dfdd51e01882e052c",
+      "width": 479,
+      "height": 270,
+      "sha256": "394a8d9d147d4d6b0986c2785333078a2ead7111cb8693794b3a5f3f0355dce5"
+    },
+    {
+      "file": "docs/images/artwork/valley-winter-wide-dawn.jpg",
+      "source": "src/native/assets/winter/dawn.jpg",
+      "sourceSha256": "213b27026c9a8c85e8c8bb44850dd99de96fccb798b8cf77995e5ce75a601c72",
+      "width": 479,
+      "height": 270,
+      "sha256": "92bb534fff271ddc9d7634315bc8162377cbe3e7e803f3dd5417bdc7d2e6d6f1"
+    },
+    {
+      "file": "docs/images/artwork/valley-winter-wide-morning.jpg",
+      "source": "src/native/assets/winter/morning.jpg",
+      "sourceSha256": "6e51f1fded5c2415007f06936797fa753fd1bb43f7420bd52b3b0421686255d7",
+      "width": 479,
+      "height": 270,
+      "sha256": "7a8cee3d1b8e20955fb240c49e17052f05620c3fc23ec97db98acbbaa46f74a2"
+    },
+    {
+      "file": "docs/images/artwork/valley-winter-wide-noon.jpg",
+      "source": "src/native/assets/winter/noon.jpg",
+      "sourceSha256": "056862540b4ea020885bae574782403d237e9e4af7929011de68687d126e5bf9",
+      "width": 479,
+      "height": 270,
+      "sha256": "5a5a5374b0ecac71524acedf024bf7e6feb1b5d00678bf1757cfebe23b180405"
+    },
+    {
+      "file": "docs/images/artwork/valley-winter-wide-afternoon.jpg",
+      "source": "src/native/assets/winter/afternoon.jpg",
+      "sourceSha256": "61133fff88e9814394e848faca764c2f0975e763232c59d4c2f5cba541f1e70f",
+      "width": 479,
+      "height": 270,
+      "sha256": "ef394d703eb50a4c72ef23f093e005a857281cef012ef6e968b02f4f7c8c1a07"
+    },
+    {
+      "file": "docs/images/artwork/valley-winter-wide-evening.jpg",
+      "source": "src/native/assets/winter/evening.jpg",
+      "sourceSha256": "383d24c437d461b6a2cc1365fd5a08cbbbe3da95d2c4c23eb6bca6f92c4b9d59",
+      "width": 479,
+      "height": 270,
+      "sha256": "dc2b4ee844cabedae472786f4b484a5ae6795ad5879b32dc0781e7bfec301766"
+    },
+    {
+      "file": "docs/images/artwork/valley-winter-wide-dusk.jpg",
+      "source": "src/native/assets/winter/dusk.jpg",
+      "sourceSha256": "853f9d00133c9ecd9c17c1bd7430214779914065a709d815ff8498594e0cebdc",
+      "width": 479,
+      "height": 270,
+      "sha256": "b6aba22a85868be904261f2261ae2a7d22ca501a59a30414edf3b0a7fda50867"
+    },
+    {
+      "file": "docs/images/artwork/valley-winter-wide-night.jpg",
+      "source": "src/native/assets/winter/night.jpg",
+      "sourceSha256": "202e1e0a9a3f0a8be569d75fdacd34e395738db0473165da078458246b6e24e0",
+      "width": 479,
+      "height": 270,
+      "sha256": "d44100086dca944ab192ef1572d08e7f6630658c869397074ba0adbb5e143c54"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-wide-dawn.jpg",
+      "source": "src/native/assets/lookout-autumn/dawn.jpg",
+      "sourceSha256": "3ca2ae9a66b5d9ffc43042c6a1af849f757b37f07d71468b046f516e4cb2843d",
+      "width": 479,
+      "height": 270,
+      "sha256": "0849a43336a75de45b0d089564055549edb572264fd5d15c3d62aeffb2f35789"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-wide-morning.jpg",
+      "source": "src/native/assets/lookout-autumn/morning.jpg",
+      "sourceSha256": "1c0022946ccf2f24b6fbf7c1065cef7e903c30a4ff10585bc67828cd4d3ac4a5",
+      "width": 479,
+      "height": 270,
+      "sha256": "b04e194f85a40e2181d69f85c408ecd3aa16645c0e1b8ece5edb9e3d33d5007b"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-wide-noon.jpg",
+      "source": "src/native/assets/lookout-autumn/noon.jpg",
+      "sourceSha256": "028f29d8117aa21b546ce6cbf4984daba2438753bf5f43f4eb74d7762da1af9f",
+      "width": 479,
+      "height": 270,
+      "sha256": "1ecf590b7c781650f16bea0eaf9dd7d9343efa02f9d1a34da8ec0d3b7c696b16"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-wide-afternoon.jpg",
+      "source": "src/native/assets/lookout-original/noon-4k.jpg",
+      "sourceSha256": "cbc6d31c777c998abd3027e9f5efb2e3b05b4652ccc0e322245e188f43ebb397",
+      "width": 480,
+      "height": 270,
+      "sha256": "192b763d3c1de2acdaf0983fe13a18c247c32a3d1c6cf4bccc0e7df9daa506e5"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-wide-evening.jpg",
+      "source": "src/native/assets/lookout-autumn/evening.jpg",
+      "sourceSha256": "c602f89aa1c489c6ac450481d7aec206c199aba25ac91c69ce35cdb345117659",
+      "width": 479,
+      "height": 270,
+      "sha256": "4bfe07ec8ce8fbe613a4fe053de58dd9646276a9e47dbb240d59445f9d919388"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-wide-dusk.jpg",
+      "source": "src/native/assets/lookout-autumn/dusk.jpg",
+      "sourceSha256": "baa9213dee0b5cdc63a0f8194e05b8631a4e1ec4ad12519efab68b6fa97eed95",
+      "width": 479,
+      "height": 270,
+      "sha256": "16feac035720b601480b3c4700ac6fb4478aee6895510f220a75e2b8a4c80f81"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-wide-night.jpg",
+      "source": "src/native/assets/lookout-autumn/night.jpg",
+      "sourceSha256": "e631d02516bf0c71a31c29fe9000d862a78509baead3d1da215eb397d4a44e0a",
+      "width": 479,
+      "height": 270,
+      "sha256": "46f2b292997d008c9ae16b17ac20d774b1a585c12dacdf8e88a3faf8364df634"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-close-dawn.jpg",
+      "source": "src/native/assets/lookout-close/autumn/dawn.jpg",
+      "sourceSha256": "6173794560ed79f4c619d8367000b5e3d8c439199922fd756e0edd33b51fc9ad",
+      "width": 479,
+      "height": 270,
+      "sha256": "e72b5c321ed157895ecc53ce46dd7dc2b7acc405cdaab38f471f9a6ecc256784"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-close-morning.jpg",
+      "source": "src/native/assets/lookout-close/autumn/morning.jpg",
+      "sourceSha256": "6f2b4d67d7ebbe1506de10069e5926706c4a99f113ab7cb722ee71eba8a2f39b",
+      "width": 479,
+      "height": 270,
+      "sha256": "35bb51b1c83aeba9e84f2c591f2d758e9be27a61a00c299b3acaf50e32b8a8cc"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-close-noon.jpg",
+      "source": "src/native/assets/lookout-close/autumn/noon.jpg",
+      "sourceSha256": "748606db7f56988f3980cae4c8081875656076116b0ef6eabca4624725650294",
+      "width": 479,
+      "height": 270,
+      "sha256": "e916646a3222b401c6bfecd3581b15aa10cb227ea9f6bd38c17fbc68ec991c5b"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-close-afternoon.jpg",
+      "source": "src/native/assets/lookout-close/autumn/afternoon.jpg",
+      "sourceSha256": "336c690533f278a2c8fafa4c8224fa358bb22edb0e78e4c3bcc4a99127c676b9",
+      "width": 479,
+      "height": 270,
+      "sha256": "d4b7eeb87409f0b0b5aa4342b44ac0a7c9585b6787de9acb974c40f636b21074"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-close-evening.jpg",
+      "source": "src/native/assets/lookout-close/autumn/evening.jpg",
+      "sourceSha256": "d0889a98546b021ad1b46c9a31bea47e41beb4cd79e16f2f33dc926a44b07526",
+      "width": 479,
+      "height": 270,
+      "sha256": "2a10d7916dd4395010539effb4506d7a78abdf669c29b149024d7f71a1fca1db"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-close-dusk.jpg",
+      "source": "src/native/assets/lookout-close/autumn/dusk.jpg",
+      "sourceSha256": "40ea745219110ec3d93632e0c06d9f86c516ce427f777d78fe0de3d5a060976a",
+      "width": 479,
+      "height": 270,
+      "sha256": "0a291acabcfc858fdeef6ee7bf86019a8820507af5c6cb51064466135ef6f80c"
+    },
+    {
+      "file": "docs/images/artwork/lookout-autumn-close-night.jpg",
+      "source": "src/native/assets/lookout-close/autumn/night.jpg",
+      "sourceSha256": "3cfa5d1fc01fd58deda487b5e0f04006c2ac1edd4961aa0ccf4bc0c61695ef83",
+      "width": 479,
+      "height": 270,
+      "sha256": "190dd4b663a3397dc317205c7283d9a5b6d2258ddffa827b00c7c690525acd18"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-wide-dawn.jpg",
+      "source": "src/native/assets/lookout-winter/dawn.jpg",
+      "sourceSha256": "40e4db29892c1f64f01156ab905a5cd8c72c4d6f102a62d15532933481884020",
+      "width": 479,
+      "height": 270,
+      "sha256": "7d88ad2a7ff3a6b9b02d5c7d427103b807525d4ca2cd5f7812d0729bbcdf234b"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-wide-morning.jpg",
+      "source": "src/native/assets/lookout-winter/morning.jpg",
+      "sourceSha256": "7e39b105429b9b3bdf658316f94bbacb02763f59c82b5ac8e1d54c246eb32159",
+      "width": 479,
+      "height": 270,
+      "sha256": "f35198537c7a35f8b9923e90e0d19b01f44c486a6fe65941e77383ec3b363819"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-wide-noon.jpg",
+      "source": "src/native/assets/lookout-winter/noon.jpg",
+      "sourceSha256": "9bbe46d28ee7074d0358a290490fc370198b05844631a30e08c233cf747ce615",
+      "width": 479,
+      "height": 270,
+      "sha256": "8c01bdf240bad9f95d675e0227f7950e79d94c6bb89d4550d2fe88e77f15bedd"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-wide-afternoon.jpg",
+      "source": "src/native/assets/lookout-winter/afternoon.jpg",
+      "sourceSha256": "b59de85fc2d30327307a67c1f7b019b198076ed1b04aeb5e38d9bbef47d66b6a",
+      "width": 479,
+      "height": 270,
+      "sha256": "55bf73dc9af92b591b731ffe04b2b0efef165dfd6b51970b699aad106a869c6f"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-wide-evening.jpg",
+      "source": "src/native/assets/lookout-winter/evening.jpg",
+      "sourceSha256": "bf1075600214f8d485233f94471538dcfb013daea0f6b3518808f21ba250ac5f",
+      "width": 479,
+      "height": 270,
+      "sha256": "82b52b4a28c172310d511c9490b92c05d631a90c39510e87c33fd5bc59507af1"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-wide-dusk.jpg",
+      "source": "src/native/assets/lookout-winter/dusk.jpg",
+      "sourceSha256": "2694c405e04000c841b024a03238afe713e5b4035e2de105118a738dd74851b5",
+      "width": 479,
+      "height": 270,
+      "sha256": "ef5af2e133696556c2343acfd4a88a7587064bc6a3a2510e50d5629d89e426da"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-wide-night.jpg",
+      "source": "src/native/assets/lookout-winter/night.jpg",
+      "sourceSha256": "8f47808e0d89613468a5839c1ee8ddca05796d1b699b85ed342f778915d28195",
+      "width": 479,
+      "height": 270,
+      "sha256": "243c8ed392828f23b40179ec8b43d053ab9f797100a86570ea8793918800d296"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-close-dawn.jpg",
+      "source": "src/native/assets/lookout-close/winter/dawn.jpg",
+      "sourceSha256": "fcba5d85b963ea22182b611ae1d2a542243b9db602b8901797f5a63f53e035ed",
+      "width": 479,
+      "height": 270,
+      "sha256": "fb0faa58f1aef73a38a12e9426d255fd43b7ae712e42b0c888dd6ee4f303bc00"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-close-morning.jpg",
+      "source": "src/native/assets/lookout-close/winter/morning-ai-2x.png",
+      "sourceSha256": "018b223c582551a85888bd0e141738a3b4cc28cca5ab580717c14fe4cab0e8a9",
+      "width": 479,
+      "height": 270,
+      "sha256": "8baa4341bba2b72ab055ad9ea2c166e05e0588614993571ee12276a48ee1550c"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-close-noon.jpg",
+      "source": "src/native/assets/lookout-close/winter/noon.jpg",
+      "sourceSha256": "1edf4290684319ba515acf598c225befacecc5394b956b1dc93948795ca6b182",
+      "width": 479,
+      "height": 270,
+      "sha256": "36e5a19616f09911e971793552945dc840180015302eaf7ddb6c95ef330cc90f"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-close-afternoon.jpg",
+      "source": "src/native/assets/lookout-close/winter/afternoon.jpg",
+      "sourceSha256": "458b8edd35a5bad2139497ca0272139e7c24d475967711cbb3ac0058d4115366",
+      "width": 479,
+      "height": 270,
+      "sha256": "d64b644fae5b437f59b77cb9d6ba4d0d9680f3dc4905c467e636ef0781aea4e0"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-close-evening.jpg",
+      "source": "src/native/assets/lookout-close/winter/evening.jpg",
+      "sourceSha256": "99634d9698634e4a61a3699f793e3b62ef34a3ded76081660056f47003c5337b",
+      "width": 479,
+      "height": 270,
+      "sha256": "b269f64ec0b05abbce0d5b020d16888a4f99cc368ab31f698b85cba65d57270f"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-close-dusk.jpg",
+      "source": "src/native/assets/lookout-close/winter/dusk.jpg",
+      "sourceSha256": "43d7b3521228eb69c261597a0e6417006178e67e906f8ad3500aba6f7ac604c3",
+      "width": 479,
+      "height": 270,
+      "sha256": "4e1eaecc7bc32175ee7fdbfec8a2e69a6cf9237375eec0c44f5b83c40d110072"
+    },
+    {
+      "file": "docs/images/artwork/lookout-winter-close-night.jpg",
+      "source": "src/native/assets/lookout-close/winter/night.jpg",
+      "sourceSha256": "4dd0ae553b157fe88e7cfdb4ab89241e98af16755bc24d6a89b73ea9dfb7ee47",
+      "width": 479,
+      "height": 270,
+      "sha256": "d9a4f366f3fc31da75d6296a3aa46d9514bf3e1b930bfeeb81fd0986a2786a23"
+    }
+  ]
+}
