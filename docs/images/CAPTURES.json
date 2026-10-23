@@ -76,6 +76,18 @@
       "bytes": 296745,
       "file": "snowy-valley-night.jpg",
       "sha256": "a5fdd77cf27fe53c09ea3a2b0d7ca45d43dc3f51f6fc8eb88f65cdf73ee7280a"
+    },
+    {
+      "name": "valley-night",
+      "scene": "valley",
+      "season": "autumn",
+      "framing": "wide",
+      "theme": "night",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 161284,
+      "file": "valley-night.jpg",
+      "sha256": "e65551ca9e270169ad0d03d429d5dcf92b9ff0c0d7a88f7a4862acba22e3bad3"
     }
   ],
   "panoramaMethod": "Seven vertical crops at their original screen coordinates, ordered Dawn to Night. No stretching, colour edits or artwork redraw. Each source is a direct 1920x1080 TV display capture.",
