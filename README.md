@@ -6,6 +6,16 @@
 
 An unofficial Firewatch-themed home screen for LG webOS TVs: app shortcuts, HDMI inputs, a clock and animated landscapes that change through the day. Not affiliated with or endorsed by Campo Santo.
 
+## Four favourites
+
+| Valley · Evening | Snowy Valley · Dusk |
+| --- | --- |
+| [![Valley Evening with clock and launcher controls](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg) | [![Snowy Valley Dusk with clock and launcher controls](docs/images/snowy-valley-dusk.jpg)](docs/images/snowy-valley-dusk.jpg) |
+| **Lookout · Afternoon** | **Lookout Close-up · Morning** |
+| [![Lookout Afternoon with clock and launcher controls](docs/images/lookout-afternoon.jpg)](docs/images/lookout-afternoon.jpg) | [![Lookout Close-up Morning with clock and launcher controls](docs/images/lookout-close-morning.jpg)](docs/images/lookout-close-morning.jpg) |
+
+Click any image for the full **1920 × 1080** TV capture.
+
 ## From dawn to night
 
 Each panorama combines seven vertical slices of the same scene, captured directly on the TV. The clock, app buttons and controls are included in the captures.
@@ -28,17 +38,13 @@ Each panorama combines seven vertical slices of the same scene, captured directl
 
 [![Lookout Close-up panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-close-day-to-night.png)](docs/images/lookout-close-day-to-night.png)
 
-## On the TV
+## More on the TV
 
-Click any image to view its original **1920 × 1080** capture. Lighting is selected manually here; the clock displays the capture time.
+Lighting is selected manually here; the clock displays the capture time.
 
-| Valley · Morning | Snowy Valley · Dusk |
+| Valley · Morning | Snowy Valley · Night |
 | --- | --- |
-| [![Valley Morning with clock and launcher controls](docs/images/valley-morning.jpg)](docs/images/valley-morning.jpg) | [![Snowy Valley Dusk with clock and launcher controls](docs/images/snowy-valley-dusk.jpg)](docs/images/snowy-valley-dusk.jpg) |
-| **Lookout · Afternoon** | **Lookout Close-up · Morning** |
-| [![Lookout Afternoon with clock and launcher controls](docs/images/lookout-afternoon.jpg)](docs/images/lookout-afternoon.jpg) | [![Lookout Close-up Morning with clock and launcher controls](docs/images/lookout-close-morning.jpg)](docs/images/lookout-close-morning.jpg) |
-| **Valley · Evening** | **Snowy Valley · Night** |
-| [![Valley Evening with clock and launcher controls](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg) | [![Snowy Valley Night with clock and launcher controls](docs/images/snowy-valley-night.jpg)](docs/images/snowy-valley-night.jpg) |
+| [![Valley Morning with clock and launcher controls](docs/images/valley-morning.jpg)](docs/images/valley-morning.jpg) | [![Snowy Valley Night with clock and launcher controls](docs/images/snowy-valley-night.jpg)](docs/images/snowy-valley-night.jpg) |
 
 ## Development status
 
