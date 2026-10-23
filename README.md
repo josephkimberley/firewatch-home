@@ -1,5 +1,9 @@
 # Firewatch Home for webOS
 
+[![Valley at Evening — Firewatch Home running on an LG TV](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg)
+
+*Valley · Evening*
+
 [![Four Firewatch Home scenes captured on an LG TV: Valley Morning, Snowy Valley Dusk, Lookout Afternoon and Lookout Close-up Morning](docs/images/themes-overview.png)](docs/images/themes-overview.png)
 
 An unofficial Firewatch-themed home screen for LG webOS TVs: app shortcuts, HDMI inputs, a clock and animated landscapes that change through the day. Not affiliated with or endorsed by Campo Santo.
