@@ -66,30 +66,6 @@
       "sha256": "017158d1e14500a46e2235c68253a48591dcf20b9cf98561d07b5b468ec5c13f"
     },
     {
-      "name": "snowy-lookout-morning",
-      "scene": "lookout",
-      "season": "winter",
-      "framing": "wide",
-      "theme": "morning",
-      "width": 1920,
-      "height": 1080,
-      "bytes": 269790,
-      "file": "snowy-lookout-morning.jpg",
-      "sha256": "fd18b24e4d087b0b248c77d98dee8761c3d34478636499599c57578e188c57f2"
-    },
-    {
-      "name": "snowy-lookout-close-morning",
-      "scene": "lookout",
-      "season": "winter",
-      "framing": "close",
-      "theme": "morning",
-      "width": 1920,
-      "height": 1080,
-      "bytes": 400456,
-      "file": "snowy-lookout-close-morning.jpg",
-      "sha256": "5974c39f68de567e43757a20eb9d5fa9e8079bdd77aa2ee8626bbc8401f87ebe"
-    },
-    {
       "name": "snowy-valley-night",
       "scene": "valley",
       "season": "winter",

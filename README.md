@@ -15,8 +15,6 @@ Click any image to view its original **1920 × 1080** capture. Lighting is selec
 | [![Valley Morning with clock and launcher controls](docs/images/valley-morning.jpg)](docs/images/valley-morning.jpg) | [![Snowy Valley Dusk with clock and launcher controls](docs/images/snowy-valley-dusk.jpg)](docs/images/snowy-valley-dusk.jpg) |
 | **Lookout · Afternoon** | **Lookout Close-up · Morning** |
 | [![Lookout Afternoon with clock and launcher controls](docs/images/lookout-afternoon.jpg)](docs/images/lookout-afternoon.jpg) | [![Lookout Close-up Morning with clock and launcher controls](docs/images/lookout-close-morning.jpg)](docs/images/lookout-close-morning.jpg) |
-| **Snowy Lookout · Morning** | **Snowy Lookout Close-up · Morning** |
-| [![Snowy Lookout Morning with clock and launcher controls](docs/images/snowy-lookout-morning.jpg)](docs/images/snowy-lookout-morning.jpg) | [![Snowy Lookout Close-up Morning with clock and launcher controls](docs/images/snowy-lookout-close-morning.jpg)](docs/images/snowy-lookout-close-morning.jpg) |
 | **Valley · Evening** | **Snowy Valley · Night** |
 | [![Valley Evening with clock and launcher controls](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg) | [![Snowy Valley Night with clock and launcher controls](docs/images/snowy-valley-night.jpg)](docs/images/snowy-valley-night.jpg) |
 
