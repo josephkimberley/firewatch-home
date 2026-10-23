@@ -100,6 +100,18 @@
       "bytes": 215030,
       "file": "lookout-noon.jpg",
       "sha256": "94adacbda07df9bce2082c1e695c59b669428d93953bf1476154f65e3221d45a"
+    },
+    {
+      "name": "lookout-close-noon",
+      "scene": "lookout",
+      "season": "autumn",
+      "framing": "close",
+      "theme": "noon",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 335338,
+      "file": "lookout-close-noon.jpg",
+      "sha256": "b2578e468fe656b15ce77071516f13489597fc4d098144d1e7502783fe3df119"
     }
   ],
   "panoramaMethod": "Seven vertical crops at their original screen coordinates, ordered Dawn to Night. No stretching, colour edits or artwork redraw. Each source is a direct 1920x1080 TV display capture.",

@@ -11,8 +11,8 @@ An unofficial Firewatch-themed home screen for LG webOS TVs: app shortcuts, HDMI
 | Valley · Morning | Snowy Valley · Dusk |
 | --- | --- |
 | [![Valley Morning with clock and launcher controls](docs/images/valley-morning.jpg)](docs/images/valley-morning.jpg) | [![Snowy Valley Dusk with clock and launcher controls](docs/images/snowy-valley-dusk.jpg)](docs/images/snowy-valley-dusk.jpg) |
-| **Lookout · Noon** | **Lookout Close-up · Morning** |
-| [![Lookout Noon with clock and launcher controls](docs/images/lookout-noon.jpg)](docs/images/lookout-noon.jpg) | [![Lookout Close-up Morning with clock and launcher controls](docs/images/lookout-close-morning.jpg)](docs/images/lookout-close-morning.jpg) |
+| **Lookout · Afternoon** | **Lookout Close-up · Noon** |
+| [![Lookout Afternoon with clock and launcher controls](docs/images/lookout-afternoon.jpg)](docs/images/lookout-afternoon.jpg) | [![Lookout Close-up Noon with clock and launcher controls](docs/images/lookout-close-noon.jpg)](docs/images/lookout-close-noon.jpg) |
 
 Click any image for the full **1920 × 1080** TV capture.
 
