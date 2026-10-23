@@ -1,0 +1,822 @@
+{
+  "version": 2,
+  "date": "2026-10-23",
+  "baseline": "remove-ember-v1",
+  "pixelsIncluded": true,
+  "publicationStatus": "private development repository; not publicly released",
+  "themes": [
+    {
+      "id": "valley-autumn-wide",
+      "scene": "valley",
+      "season": "autumn",
+      "framing": "wide",
+      "structure": "flattened-background",
+      "rightsStatus": "redistribution-permission-unresolved",
+      "phases": [
+        {
+          "phase": "dawn",
+          "path": "src/native/assets/autumn/dawn.jpg",
+          "bytes": 992677,
+          "sha256": "8a1f3507bbe026f0f4fb33464c881f2b246c0e8917cb159086e43aa1cf285264",
+          "thumbnail": "src/native/previews/valley-autumn-dawn.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "morning",
+          "path": "src/native/assets/autumn/morning.jpg",
+          "bytes": 973469,
+          "sha256": "25bceb115e697bc4841f6e6e31b432638d5368f802a1feeab3812806225320e4",
+          "thumbnail": "src/native/previews/valley-autumn-morning.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "noon",
+          "path": "src/native/assets/autumn/noon.jpg",
+          "bytes": 957743,
+          "sha256": "3c718d7f5fde606104174c9631754946da3f3491dfc5238fe33ecf85af6bf542",
+          "thumbnail": "src/native/previews/valley-autumn-noon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "afternoon",
+          "path": "src/native/assets/autumn/afternoon.jpg",
+          "bytes": 1121313,
+          "sha256": "13b3d0dfc1d77fe6aefc80833d903cac3a7fb027b08bc61dfebbf90f8ce974da",
+          "thumbnail": "src/native/previews/valley-autumn-afternoon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "evening",
+          "path": "src/native/assets/autumn/evening-vibrant.jpg",
+          "bytes": 979472,
+          "sha256": "14c8296c3ac8c958bd279606410860293d971bec11c1be5f9381c7af1b6cd2e2",
+          "thumbnail": "src/native/previews/valley-autumn-evening.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "dusk",
+          "path": "src/native/assets/autumn/dusk.jpg",
+          "bytes": 916238,
+          "sha256": "795739171ff922444ce099fd0d6acd74e72c92905fdc50dc5606cbcdb8497f55",
+          "thumbnail": "src/native/previews/valley-autumn-dusk.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "night",
+          "path": "src/native/assets/autumn/night.jpg",
+          "bytes": 924533,
+          "sha256": "0a6ed4b021fa6af8d9eb854171a2c909329c2f3c430a4e3dfdd51e01882e052c",
+          "thumbnail": "src/native/previews/valley-autumn-night.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valley-winter-wide",
+      "scene": "valley",
+      "season": "winter",
+      "framing": "wide",
+      "structure": "flattened-background",
+      "rightsStatus": "redistribution-permission-unresolved",
+      "phases": [
+        {
+          "phase": "dawn",
+          "path": "src/native/assets/winter/dawn.jpg",
+          "bytes": 1976610,
+          "sha256": "213b27026c9a8c85e8c8bb44850dd99de96fccb798b8cf77995e5ce75a601c72",
+          "thumbnail": "src/native/previews/valley-winter-dawn.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "morning",
+          "path": "src/native/assets/winter/morning.jpg",
+          "bytes": 2055666,
+          "sha256": "6e51f1fded5c2415007f06936797fa753fd1bb43f7420bd52b3b0421686255d7",
+          "thumbnail": "src/native/previews/valley-winter-morning.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "noon",
+          "path": "src/native/assets/winter/noon.jpg",
+          "bytes": 1955937,
+          "sha256": "056862540b4ea020885bae574782403d237e9e4af7929011de68687d126e5bf9",
+          "thumbnail": "src/native/previews/valley-winter-noon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "afternoon",
+          "path": "src/native/assets/winter/afternoon.jpg",
+          "bytes": 2128876,
+          "sha256": "61133fff88e9814394e848faca764c2f0975e763232c59d4c2f5cba541f1e70f",
+          "thumbnail": "src/native/previews/valley-winter-afternoon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "evening",
+          "path": "src/native/assets/winter/evening.jpg",
+          "bytes": 1867955,
+          "sha256": "383d24c437d461b6a2cc1365fd5a08cbbbe3da95d2c4c23eb6bca6f92c4b9d59",
+          "thumbnail": "src/native/previews/valley-winter-evening.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "dusk",
+          "path": "src/native/assets/winter/dusk.jpg",
+          "bytes": 1913925,
+          "sha256": "853f9d00133c9ecd9c17c1bd7430214779914065a709d815ff8498594e0cebdc",
+          "thumbnail": "src/native/previews/valley-winter-dusk.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "night",
+          "path": "src/native/assets/winter/night.jpg",
+          "bytes": 1899815,
+          "sha256": "202e1e0a9a3f0a8be569d75fdacd34e395738db0473165da078458246b6e24e0",
+          "thumbnail": "src/native/previews/valley-winter-night.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lookout-autumn-wide",
+      "scene": "lookout",
+      "season": "autumn",
+      "framing": "wide",
+      "structure": "flattened-background",
+      "rightsStatus": "redistribution-permission-unresolved",
+      "phases": [
+        {
+          "phase": "dawn",
+          "path": "src/native/assets/lookout-autumn/dawn.jpg",
+          "bytes": 1299238,
+          "sha256": "3ca2ae9a66b5d9ffc43042c6a1af849f757b37f07d71468b046f516e4cb2843d",
+          "thumbnail": "src/native/previews/lookout-autumn-dawn.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "morning",
+          "path": "src/native/assets/lookout-autumn/morning.jpg",
+          "bytes": 1195668,
+          "sha256": "1c0022946ccf2f24b6fbf7c1065cef7e903c30a4ff10585bc67828cd4d3ac4a5",
+          "thumbnail": "src/native/previews/lookout-autumn-morning.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "noon",
+          "path": "src/native/assets/lookout-autumn/noon.jpg",
+          "bytes": 1425290,
+          "sha256": "028f29d8117aa21b546ce6cbf4984daba2438753bf5f43f4eb74d7762da1af9f",
+          "thumbnail": "src/native/previews/lookout-autumn-noon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "afternoon",
+          "path": "src/native/assets/lookout-original/noon-4k.jpg",
+          "bytes": 1664970,
+          "sha256": "cbc6d31c777c998abd3027e9f5efb2e3b05b4652ccc0e322245e188f43ebb397",
+          "thumbnail": "src/native/previews/lookout-autumn-afternoon.jpg",
+          "dimensions": [
+            3840,
+            2160
+          ]
+        },
+        {
+          "phase": "evening",
+          "path": "src/native/assets/lookout-autumn/evening.jpg",
+          "bytes": 1252543,
+          "sha256": "c602f89aa1c489c6ac450481d7aec206c199aba25ac91c69ce35cdb345117659",
+          "thumbnail": "src/native/previews/lookout-autumn-evening.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "dusk",
+          "path": "src/native/assets/lookout-autumn/dusk.jpg",
+          "bytes": 1195827,
+          "sha256": "baa9213dee0b5cdc63a0f8194e05b8631a4e1ec4ad12519efab68b6fa97eed95",
+          "thumbnail": "src/native/previews/lookout-autumn-dusk.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "night",
+          "path": "src/native/assets/lookout-autumn/night.jpg",
+          "bytes": 1028152,
+          "sha256": "e631d02516bf0c71a31c29fe9000d862a78509baead3d1da215eb397d4a44e0a",
+          "thumbnail": "src/native/previews/lookout-autumn-night.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lookout-autumn-close",
+      "scene": "lookout",
+      "season": "autumn",
+      "framing": "close",
+      "structure": "flattened-background",
+      "rightsStatus": "redistribution-permission-unresolved",
+      "phases": [
+        {
+          "phase": "dawn",
+          "path": "src/native/assets/lookout-close/autumn/dawn.jpg",
+          "bytes": 2026862,
+          "sha256": "6173794560ed79f4c619d8367000b5e3d8c439199922fd756e0edd33b51fc9ad",
+          "thumbnail": "src/native/previews/lookout-autumn-dawn.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "morning",
+          "path": "src/native/assets/lookout-close/autumn/morning.jpg",
+          "bytes": 1928209,
+          "sha256": "6f2b4d67d7ebbe1506de10069e5926706c4a99f113ab7cb722ee71eba8a2f39b",
+          "thumbnail": "src/native/previews/lookout-autumn-morning.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "noon",
+          "path": "src/native/assets/lookout-close/autumn/noon.jpg",
+          "bytes": 2280015,
+          "sha256": "748606db7f56988f3980cae4c8081875656076116b0ef6eabca4624725650294",
+          "thumbnail": "src/native/previews/lookout-autumn-noon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "afternoon",
+          "path": "src/native/assets/lookout-close/autumn/afternoon.jpg",
+          "bytes": 2098740,
+          "sha256": "336c690533f278a2c8fafa4c8224fa358bb22edb0e78e4c3bcc4a99127c676b9",
+          "thumbnail": "src/native/previews/lookout-autumn-afternoon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "evening",
+          "path": "src/native/assets/lookout-close/autumn/evening.jpg",
+          "bytes": 2004085,
+          "sha256": "d0889a98546b021ad1b46c9a31bea47e41beb4cd79e16f2f33dc926a44b07526",
+          "thumbnail": "src/native/previews/lookout-autumn-evening.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "dusk",
+          "path": "src/native/assets/lookout-close/autumn/dusk.jpg",
+          "bytes": 1827437,
+          "sha256": "40ea745219110ec3d93632e0c06d9f86c516ce427f777d78fe0de3d5a060976a",
+          "thumbnail": "src/native/previews/lookout-autumn-dusk.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "night",
+          "path": "src/native/assets/lookout-close/autumn/night.jpg",
+          "bytes": 1607809,
+          "sha256": "3cfa5d1fc01fd58deda487b5e0f04006c2ac1edd4961aa0ccf4bc0c61695ef83",
+          "thumbnail": "src/native/previews/lookout-autumn-night.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lookout-winter-wide",
+      "scene": "lookout",
+      "season": "winter",
+      "framing": "wide",
+      "structure": "flattened-background",
+      "rightsStatus": "redistribution-permission-unresolved",
+      "phases": [
+        {
+          "phase": "dawn",
+          "path": "src/native/assets/lookout-winter/dawn.jpg",
+          "bytes": 1497562,
+          "sha256": "40e4db29892c1f64f01156ab905a5cd8c72c4d6f102a62d15532933481884020",
+          "thumbnail": "src/native/previews/lookout-winter-dawn.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "morning",
+          "path": "src/native/assets/lookout-winter/morning.jpg",
+          "bytes": 1520269,
+          "sha256": "7e39b105429b9b3bdf658316f94bbacb02763f59c82b5ac8e1d54c246eb32159",
+          "thumbnail": "src/native/previews/lookout-winter-morning.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "noon",
+          "path": "src/native/assets/lookout-winter/noon.jpg",
+          "bytes": 1593129,
+          "sha256": "9bbe46d28ee7074d0358a290490fc370198b05844631a30e08c233cf747ce615",
+          "thumbnail": "src/native/previews/lookout-winter-noon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "afternoon",
+          "path": "src/native/assets/lookout-winter/afternoon.jpg",
+          "bytes": 1474920,
+          "sha256": "b59de85fc2d30327307a67c1f7b019b198076ed1b04aeb5e38d9bbef47d66b6a",
+          "thumbnail": "src/native/previews/lookout-winter-afternoon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "evening",
+          "path": "src/native/assets/lookout-winter/evening.jpg",
+          "bytes": 1616671,
+          "sha256": "bf1075600214f8d485233f94471538dcfb013daea0f6b3518808f21ba250ac5f",
+          "thumbnail": "src/native/previews/lookout-winter-evening.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "dusk",
+          "path": "src/native/assets/lookout-winter/dusk.jpg",
+          "bytes": 1344720,
+          "sha256": "2694c405e04000c841b024a03238afe713e5b4035e2de105118a738dd74851b5",
+          "thumbnail": "src/native/previews/lookout-winter-dusk.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "night",
+          "path": "src/native/assets/lookout-winter/night.jpg",
+          "bytes": 1332374,
+          "sha256": "8f47808e0d89613468a5839c1ee8ddca05796d1b699b85ed342f778915d28195",
+          "thumbnail": "src/native/previews/lookout-winter-night.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lookout-winter-close",
+      "scene": "lookout",
+      "season": "winter",
+      "framing": "close",
+      "structure": "flattened-background",
+      "rightsStatus": "redistribution-permission-unresolved",
+      "phases": [
+        {
+          "phase": "dawn",
+          "path": "src/native/assets/lookout-close/winter/dawn.jpg",
+          "bytes": 2535132,
+          "sha256": "fcba5d85b963ea22182b611ae1d2a542243b9db602b8901797f5a63f53e035ed",
+          "thumbnail": "src/native/previews/lookout-winter-dawn.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "morning",
+          "path": "src/native/assets/lookout-close/winter/morning-ai-2x.png",
+          "bytes": 5046925,
+          "sha256": "018b223c582551a85888bd0e141738a3b4cc28cca5ab580717c14fe4cab0e8a9",
+          "thumbnail": "src/native/previews/lookout-winter-morning.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "noon",
+          "path": "src/native/assets/lookout-close/winter/noon.jpg",
+          "bytes": 2743284,
+          "sha256": "1edf4290684319ba515acf598c225befacecc5394b956b1dc93948795ca6b182",
+          "thumbnail": "src/native/previews/lookout-winter-noon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "afternoon",
+          "path": "src/native/assets/lookout-close/winter/afternoon.jpg",
+          "bytes": 2272500,
+          "sha256": "458b8edd35a5bad2139497ca0272139e7c24d475967711cbb3ac0058d4115366",
+          "thumbnail": "src/native/previews/lookout-winter-afternoon.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "evening",
+          "path": "src/native/assets/lookout-close/winter/evening.jpg",
+          "bytes": 2261593,
+          "sha256": "99634d9698634e4a61a3699f793e3b62ef34a3ded76081660056f47003c5337b",
+          "thumbnail": "src/native/previews/lookout-winter-evening.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "dusk",
+          "path": "src/native/assets/lookout-close/winter/dusk.jpg",
+          "bytes": 2087266,
+          "sha256": "43d7b3521228eb69c261597a0e6417006178e67e906f8ad3500aba6f7ac604c3",
+          "thumbnail": "src/native/previews/lookout-winter-dusk.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        },
+        {
+          "phase": "night",
+          "path": "src/native/assets/lookout-close/winter/night.jpg",
+          "bytes": 2287370,
+          "sha256": "4dd0ae553b157fe88e7cfdb4ab89241e98af16755bc24d6a89b73ea9dfb7ee47",
+          "thumbnail": "src/native/previews/lookout-winter-night.jpg",
+          "dimensions": [
+            3344,
+            1882
+          ]
+        }
+      ]
+    }
+  ],
+  "previews": [
+    {
+      "path": "src/native/previews/valley-autumn-dawn.jpg",
+      "bytes": 9895,
+      "sha256": "8383e6da6f097b0deeaacd2ed1a457431fd51bdb752be9b6b73f54d333f7c39e",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-autumn-morning.jpg",
+      "bytes": 10449,
+      "sha256": "917c805b1094369640603f91f10bfc896b90b4fc9f7bfae1affbec8b12225daf",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-autumn-noon.jpg",
+      "bytes": 10733,
+      "sha256": "70afbd4cab478bb34e95873849f144e6e3fb638f6ff7ace07d3fb2a9fda34005",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-autumn-afternoon.jpg",
+      "bytes": 11346,
+      "sha256": "5543a645fc6df1827d5918e35f42f90b1c2237a8332635a7a1d05f26ae25320f",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-autumn-evening.jpg",
+      "bytes": 11160,
+      "sha256": "a874ddf9001a52d3ca9b211402045a10a00331dc4a794cfa022260f19a720709",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-autumn-dusk.jpg",
+      "bytes": 9009,
+      "sha256": "51d9163f10f5488e5976659d5acf81cf526f07a9c351478dc2c08ec219c627f9",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-autumn-night.jpg",
+      "bytes": 8029,
+      "sha256": "0583af64e79f6240ae5ebfa59367e6ae43c4dd9a43a8c533dcd65e5f443c0c8e",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-winter-dawn.jpg",
+      "bytes": 20196,
+      "sha256": "86a481d7724c9b26cd7f4fdf3f1141fc65f10099993f122f9a2aa0ef8e7fed58",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-winter-morning.jpg",
+      "bytes": 23444,
+      "sha256": "746e65caab607ac7efb0ca1c3edb9226258ff2b62b950b341b4509284b3dac26",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-winter-noon.jpg",
+      "bytes": 23137,
+      "sha256": "8cc495e271f0aba452967197ac1b3ed6b1959cd3587f4959894990995ef03709",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-winter-afternoon.jpg",
+      "bytes": 23748,
+      "sha256": "a2a62912349b987c8137e94b3e5a443f80f662aec74c9b76dbedeb74bfb5f504",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-winter-evening.jpg",
+      "bytes": 20338,
+      "sha256": "449060fae5fd7963b51dacb813b6259a97676bdf044ae18bc153e824717f49cd",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-winter-dusk.jpg",
+      "bytes": 19474,
+      "sha256": "cf9b8056bf0b5cc0c1aeb33182c5b14847d5298c224faa48fe5cf62d8a2f8584",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/valley-winter-night.jpg",
+      "bytes": 17927,
+      "sha256": "54ecc3444b8a8b72654043cf08723d494b7f5016ed6eb2adec5c13624bda93c6",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-autumn-dawn.jpg",
+      "bytes": 9382,
+      "sha256": "6e4db102fb9acc1464bb181f60a0941412d889dbde87ea69bbd197eae404471a",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-autumn-morning.jpg",
+      "bytes": 8669,
+      "sha256": "209c032d5bf22ecf86600187b6cbb73f2cee0999288b0c20da60ceabc7ea9092",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-autumn-noon.jpg",
+      "bytes": 10124,
+      "sha256": "be254af68b8610faf8709f688fc820058c0ecb2f5505125dd57b81fe42a47170",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-autumn-afternoon.jpg",
+      "bytes": 10429,
+      "sha256": "46058f2230106c53562f69f46985df3cfe50f94bd5beec0b0cdd433dcfb49d7b",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-autumn-evening.jpg",
+      "bytes": 9752,
+      "sha256": "3392323a67275197c737f9ed7738f4f1bdbf79575f55b0e8c11f1dd37a5e6d4e",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-autumn-dusk.jpg",
+      "bytes": 8651,
+      "sha256": "b3c4a080e691423f56e7015c3a989b6cc6cd58c49c12020e86a7ef1c0225cb45",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-autumn-night.jpg",
+      "bytes": 7369,
+      "sha256": "06718b7b5fc1114607766d775414ea353d4db24d0414ae1688f588b248f4da8d",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-winter-dawn.jpg",
+      "bytes": 11984,
+      "sha256": "0a596861bb66ee0d88ec5ba7ba6737fa03607f7f1cf70ff09b2ad2ba361d7663",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-winter-morning.jpg",
+      "bytes": 11095,
+      "sha256": "cee1e0ecbd72470caaef7fbd91670ec32f47c3a226aff8f9883eae4594a702cb",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-winter-noon.jpg",
+      "bytes": 14609,
+      "sha256": "39833401943e0519a0027c6a7af0a66ece9bc3401383e1e96448f5b1f14e6d59",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-winter-afternoon.jpg",
+      "bytes": 11026,
+      "sha256": "45ec780e2757d613ea7e272d82395aa449f16299178ef8594507df9bc7800137",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-winter-evening.jpg",
+      "bytes": 11312,
+      "sha256": "414fd51594926e4e674e052d095a2eed4b0e1b78ced5d5ef4314c57d39ae1e6a",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-winter-dusk.jpg",
+      "bytes": 10377,
+      "sha256": "7f6fae3ea4d1e950f6b98c82df9f9f2a25a3ee9a76add5dc73f7521e5447cafe",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    {
+      "path": "src/native/previews/lookout-winter-night.jpg",
+      "bytes": 10358,
+      "sha256": "e731cca49083b3299f7c9f21a166a16399c61998146f541c89c1d0cce4a5ef23",
+      "dimensions": [
+        320,
+        180
+      ]
+    }
+  ],
+  "supporting": [
+    {
+      "path": "src/native/assets/stars/winter-starless.png",
+      "bytes": 2851118,
+      "sha256": "344271202d038183f7b63e460e7415328abda27e03882e6bd821323e720354de",
+      "dimensions": [
+        3344,
+        1882
+      ]
+    },
+    {
+      "path": "src/native/assets/stars/winter-valley.png",
+      "bytes": 1636476,
+      "sha256": "9ca0b2b8c8b7609856ae44e42f2d7f0f5101d793f269fa2220f03870e426491c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "src/native/assets/stars/winter-foreground.png",
+      "bytes": 1010884,
+      "sha256": "6a88e66f72ccd802e7daf493f5a9c8481f02a8d858d569ed595e91a618b573f5",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "credits": "docs/ARTWORK.md",
+  "excluded": [
+    "Ember",
+    "Classic",
+    "snowstorm experiment",
+    "unused alternative images",
+    "large intermediate AI masters"
+  ]
+}

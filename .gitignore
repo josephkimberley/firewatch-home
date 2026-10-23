@@ -1,0 +1,10 @@
+node_modules/
+dist/
+local/
+*.ipk
+*.pem
+*.key
+.env*
+.DS_Store
+# Approved themes are included by project-owner request; see docs/ARTWORK.md.
+src/native/logos/

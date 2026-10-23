@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "apps": [
+    {"id": "youtube.leanback.v4", "label": "YouTube"},
+    {"id": "bbc.iplayer.3.0", "label": "BBC iPlayer"},
+    {"id": "com.fvp.itv", "label": "ITVX"},
+    {"id": "com.fvp.ch4", "label": "Channel 4"},
+    {"id": "amazon", "label": "Prime Video"}
+  ],
+  "inputs": [
+    {"port": 1, "label": "HDMI 1"},
+    {"port": 2, "label": "HDMI 2"},
+    {"port": 3, "label": "HDMI 3"},
+    {"port": 4, "label": "HDMI 4"}
+  ],
+  "clock": {"timeZone": "system", "format": "24h"},
+  "scene": {"theme": "autumn", "period": "auto", "motion": true},
+  "layout": {"groupGap": 32, "divider": true, "inputTintOpacity": 0.08}
+}

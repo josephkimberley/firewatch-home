@@ -1,0 +1,13 @@
+{
+  "name": "firewatch-home-release-preparation",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node tools/config.mjs config/default.json"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

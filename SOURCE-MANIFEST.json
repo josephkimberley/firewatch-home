@@ -1,0 +1,123 @@
+{
+  "baseline": "native 3.0.7 / back-panel-v3",
+  "date": "2026-10-23",
+  "scope": "Current QML/JS/shaders and approved theme images. Artwork inventory separate; no compiled launcher, TV credentials, firmware patches or root integration scripts.",
+  "files": [
+    {
+      "path": "src/native/Appearance.js",
+      "bytes": 3465,
+      "sha256": "e7fe12ae2e0acdb342c2c84c14e2b8ddb8542214c44b0f869be64dd027ba8dad"
+    },
+    {
+      "path": "src/native/AppearancePanel.qml",
+      "bytes": 6888,
+      "sha256": "ec37b45bf54ecf1ab4aaee78917b3c8a39eb4440257f6acb9af968d00d4a1423"
+    },
+    {
+      "path": "src/native/BirdMesh.qml",
+      "bytes": 731,
+      "sha256": "57466f3e2362725d455f3ddc8e10a07e2ade06c99fef941b25418b85daf06be8"
+    },
+    {
+      "path": "src/native/HomeControls.qml",
+      "bytes": 17424,
+      "sha256": "b3f228850081779ff7783a15b34645babd44efc5f7b301db7ae2c6736c612ee5"
+    },
+    {
+      "path": "src/native/PaintedScene.qml",
+      "bytes": 9739,
+      "sha256": "ba4f915cb71213df4312f12c0c4cdeeb2b94c313f8adb92ede75dc25aac72b0f"
+    },
+    {
+      "path": "src/native/SceneMath.js",
+      "bytes": 5975,
+      "sha256": "83eb3860c19055f105dfc340dca939a91471fe939e0a432e60f9b9c0f7050651"
+    },
+    {
+      "path": "src/native/SceneShaders.js",
+      "bytes": 8028,
+      "sha256": "6f8cc3cbdecf5e3c9ecc1d3bec93ce8e9d940ce46dd81948b9fd11366bea4e30"
+    },
+    {
+      "path": "src/native/StartupCover.qml",
+      "bytes": 3507,
+      "sha256": "7b244ad396dfe016546b81196d21ef9dfa3ac20e2e7c43f093a0f0b085fb8046"
+    },
+    {
+      "path": "src/native/UKClock.js",
+      "bytes": 1680,
+      "sha256": "48dbdee1588abdfc6a5023d95657c5af806ac91ef0947298c74f94c9c0942d1d"
+    },
+    {
+      "path": "src/native/WinterStars.qml",
+      "bytes": 1821,
+      "sha256": "123df1f94b9fdf704a013a264fb740d003a5e7db83d01e165c3415dcdb0dabbe"
+    },
+    {
+      "path": "src/native/appinfo.json",
+      "bytes": 410,
+      "sha256": "de42e711c940fcc580f240c8f5db3bbd99363d8b1d9dd0420c29690356fbe0bc"
+    },
+    {
+      "path": "src/native/bird.frag",
+      "bytes": 166,
+      "sha256": "a3bd8ab9eb296dfead43914e087786ba601fe7e5c700893df32129c3bcf48089"
+    },
+    {
+      "path": "src/native/bird.vert",
+      "bytes": 4268,
+      "sha256": "d5f931e59c2763324aa92491c469a7d24d79832d7d061019098158d2d7ada8a0"
+    },
+    {
+      "path": "src/native/landscape.frag",
+      "bytes": 749,
+      "sha256": "5ab1dd6f8813c17a1df9fd2dfeb0eeb763a823f323d272b55b965da736c1a888"
+    },
+    {
+      "path": "src/native/landscape.vert",
+      "bytes": 1991,
+      "sha256": "e209ed1af6e17d35aefde97f3751e3f73e4b606c80272fc2fd75651ca644552b"
+    },
+    {
+      "path": "src/native/main.qml",
+      "bytes": 7249,
+      "sha256": "e803a442e29c8e5c5339c2144af98136a21b2d9a4d4f81e57a1592aee9ea4c19"
+    },
+    {
+      "path": "src/native/meteor.frag",
+      "bytes": 156,
+      "sha256": "2b72f973c2acd6e2fb09182369488198bf67a3fb1cbd33edbfc1dd396125dd63"
+    },
+    {
+      "path": "src/native/meteor.vert",
+      "bytes": 324,
+      "sha256": "90fad048c8ade6cb9e4c38ec6b9f2a0e8a49287835e20da5ba0922770bf82da9"
+    },
+    {
+      "path": "src/launcher.c",
+      "bytes": 1124,
+      "sha256": "50b3bdfb6307f826ccb6c543f91b4ec98f8a1d3584aaa4bad8316ae1d8d1e488",
+      "note": "Prior source snapshot retained; reproducible launcher build remains outstanding."
+    },
+    {
+      "path": "src/native/fonts/BarlowCondensed-Medium.ttf",
+      "bytes": 103360,
+      "sha256": "262bd143292ce479ee0cd09a42b47ab173fca8e9c6eb5ed0b5c8a845bc371d17"
+    },
+    {
+      "path": "src/native/fonts/BarlowCondensed-Regular.ttf",
+      "bytes": 102480,
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": "src/native/fonts/BarlowCondensed-SemiBold.ttf",
+      "bytes": 109428,
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    {
+      "path": "src/native/fonts/OFL-Barlow.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    }
+  ]
+}

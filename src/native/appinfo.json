@@ -1,0 +1,17 @@
+{
+  "id": "uk.local.minimalhome.native",
+  "version": "3.0.7",
+  "vendor": "Personal",
+  "type": "native",
+  "main": "minimal-home",
+  "title": "Firewatch Home",
+  "icon": "icon.png",
+  "largeIcon": "large-icon.png",
+  "iconColor": "#151719",
+  "resolution": "1920x1080",
+  "supportGIP": true,
+  "needNetworkToLaunchOnBoot": false,
+  "noSplashOnLaunch": true,
+  "spinnerOnLaunch": false,
+  "lockable": false
+}
