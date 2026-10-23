@@ -4,11 +4,29 @@
 
 *Valley · Evening*
 
-[![Four Firewatch Home scenes captured on an LG TV: Valley Morning, Snowy Valley Dusk, Lookout Afternoon and Lookout Close-up Morning](docs/images/themes-overview.png)](docs/images/themes-overview.png)
-
 An unofficial Firewatch-themed home screen for LG webOS TVs: app shortcuts, HDMI inputs, a clock and animated landscapes that change through the day. Not affiliated with or endorsed by Campo Santo.
 
-*Actual TV captures, including the clock, app logos, HDMI shortcuts and controls. Above, clockwise from top left: Valley Morning, Snowy Valley Dusk, Lookout Close-up Morning and Lookout Afternoon.*
+## From dawn to night
+
+Each panorama combines seven vertical slices of the same scene, captured directly on the TV. The clock, app buttons and controls are included in the captures.
+
+**Left → right: Dawn · Morning · Noon · Afternoon · Evening · Dusk · Night**
+
+**Valley**
+
+[![Valley panorama progressing from Dawn at the left to Night at the right](docs/images/valley-day-to-night.png)](docs/images/valley-day-to-night.png)
+
+**Snowy Valley**
+
+[![Snowy Valley panorama progressing from Dawn at the left to Night at the right](docs/images/snowy-valley-day-to-night.png)](docs/images/snowy-valley-day-to-night.png)
+
+**Lookout**
+
+[![Lookout panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-day-to-night.png)](docs/images/lookout-day-to-night.png)
+
+**Lookout Close-up**
+
+[![Lookout Close-up panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-close-day-to-night.png)](docs/images/lookout-close-day-to-night.png)
 
 ## On the TV
 

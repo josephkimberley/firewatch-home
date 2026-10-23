@@ -77,5 +77,352 @@
       "file": "snowy-valley-night.jpg",
       "sha256": "a5fdd77cf27fe53c09ea3a2b0d7ca45d43dc3f51f6fc8eb88f65cdf73ee7280a"
     }
+  ],
+  "panoramaMethod": "Seven vertical crops at their original screen coordinates, ordered Dawn to Night. No stretching, colour edits or artwork redraw. Each source is a direct 1920x1080 TV display capture.",
+  "panoramas": [
+    {
+      "file": "valley-day-to-night.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 920063,
+      "sha256": "1f54427c9da3c243f997b41398577069becbe064881d71bacca4a7c2bc480fe7",
+      "sourcesLeftToRight": [
+        {
+          "name": "valley-dawn",
+          "scene": "valley",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "dawn",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 178324,
+          "sha256": "0477dc50e62a300d9f6a9cec040cabc4b12a92a9822eba12e0860bde4a0f881f"
+        },
+        {
+          "name": "valley-morning",
+          "scene": "valley",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "morning",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 185407,
+          "sha256": "98fefe9311b30acbe0a8176c5f7b3fd8396e8fe7930b3e507510aac951cc6ff3"
+        },
+        {
+          "name": "valley-noon",
+          "scene": "valley",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "noon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 182984,
+          "sha256": "04971496325ec8e7ad6ae7d74224390bedfb335031af5e53a176c6db5c3c4eeb"
+        },
+        {
+          "name": "valley-afternoon",
+          "scene": "valley",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "afternoon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 192497,
+          "sha256": "a7305e09b83ddc1514d29654286ced8453ee2594b0c85e21febb47a0794f3f29"
+        },
+        {
+          "name": "valley-evening",
+          "scene": "valley",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "evening",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 174502,
+          "sha256": "946cab1a7c2efab082f43e8444c76396dee9673320794f3c5c4583fd4f629a58"
+        },
+        {
+          "name": "valley-dusk",
+          "scene": "valley",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "dusk",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 161073,
+          "sha256": "237e86b0f643946fa7b1dce8f87e06478924eb6b7ae394ffb63d4588cdf96fa2"
+        },
+        {
+          "name": "valley-night",
+          "scene": "valley",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "night",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 161284,
+          "sha256": "e65551ca9e270169ad0d03d429d5dcf92b9ff0c0d7a88f7a4862acba22e3bad3"
+        }
+      ]
+    },
+    {
+      "file": "snowy-valley-day-to-night.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1661733,
+      "sha256": "7da15238b2c633d01f5afa1a0f754f2436defde5859f62a867ad99a909845395",
+      "sourcesLeftToRight": [
+        {
+          "name": "snowy-valley-dawn",
+          "scene": "valley",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "dawn",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 323492,
+          "sha256": "251c5d298e15074108184d46123f1d8ddbba1b7a046b6ded2f7238e5ae462bb6"
+        },
+        {
+          "name": "snowy-valley-morning",
+          "scene": "valley",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "morning",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 356580,
+          "sha256": "45e53aedde9097a90f7dd3037e0a25b3191e9b268043a665160b7b02ffd7c24c"
+        },
+        {
+          "name": "snowy-valley-noon",
+          "scene": "valley",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "noon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 352401,
+          "sha256": "48c950847edbbc7209bccf140e4cc9cdd63bb4ee83d117788859cbbac8715cc9"
+        },
+        {
+          "name": "snowy-valley-afternoon",
+          "scene": "valley",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "afternoon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 363469,
+          "sha256": "fcc9d921c81e2c7aa93fb68e837341f9884dd0fdabb8477d033180fb4cf78b1b"
+        },
+        {
+          "name": "snowy-valley-evening",
+          "scene": "valley",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "evening",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 309447,
+          "sha256": "f490a2f70f4a297d807b47b4483e62a0c62df7ffb7c918524e11646f6a348013"
+        },
+        {
+          "name": "snowy-valley-dusk",
+          "scene": "valley",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "dusk",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 307604,
+          "sha256": "714657abf58e4f0f86a17d6440f0e886b563300fd79a87446dd000b5cba8f375"
+        },
+        {
+          "name": "snowy-valley-night",
+          "scene": "valley",
+          "season": "winter",
+          "framing": "wide",
+          "theme": "night",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 296403,
+          "sha256": "bb090c0ff35503aa8193760872ff9c46505d3ccd552074ec8674437fc2dd3610"
+        }
+      ]
+    },
+    {
+      "file": "lookout-day-to-night.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 928356,
+      "sha256": "467f29a29fb84bdbb0a45380584924d153db169c40d16a1fcbd389bd03261403",
+      "sourcesLeftToRight": [
+        {
+          "name": "lookout-dawn",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "dawn",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 193665,
+          "sha256": "9801cfef566c3565d5d220d832252e6b42a3a2c8d39c6717d378736fb628d4e1"
+        },
+        {
+          "name": "lookout-morning",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "morning",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 195845,
+          "sha256": "e3f3e913f5413d839860c23599cafb417b8dd7cc2cd98ed6830d90187469f7bd"
+        },
+        {
+          "name": "lookout-noon",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "noon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 215030,
+          "sha256": "94adacbda07df9bce2082c1e695c59b669428d93953bf1476154f65e3221d45a"
+        },
+        {
+          "name": "lookout-afternoon",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "afternoon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 194987,
+          "sha256": "3fa69c55369b61d7ff3f1b69a8684a78fdcb6e8424f3f5fbd086763a239b5e09"
+        },
+        {
+          "name": "lookout-evening",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "evening",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 191987,
+          "sha256": "a3e14f473ed9f6b69d4c0cdfe5d80d6ac6a3aa84625b1200d77eeda1428d288e"
+        },
+        {
+          "name": "lookout-dusk",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "dusk",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 176781,
+          "sha256": "275c7912e74d9f2fa061c763b4b441d0cb3eca851492e638ccc92a1f7b4d5b4a"
+        },
+        {
+          "name": "lookout-night",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "wide",
+          "theme": "night",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 158851,
+          "sha256": "c9c07bd9a16329f6b987bb6543b9c11db8f93d101e42cb0b55028760c43e0d8a"
+        }
+      ]
+    },
+    {
+      "file": "lookout-close-day-to-night.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1537844,
+      "sha256": "465053eeaeddfc2f5f66cba05dac2a6d4bc0486b999227868da2f47c92a0ac79",
+      "sourcesLeftToRight": [
+        {
+          "name": "lookout-close-dawn",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "close",
+          "theme": "dawn",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 283492,
+          "sha256": "27ffe29c17183d9d51a0c21dadb3eea842f5204a48992ac162bdf4d9a05595b8"
+        },
+        {
+          "name": "lookout-close-morning",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "close",
+          "theme": "morning",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 310509,
+          "sha256": "192f52461adb3974405b812e1b3b4388f261e2238a3c79441201db1f940e038e"
+        },
+        {
+          "name": "lookout-close-noon",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "close",
+          "theme": "noon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 335338,
+          "sha256": "b2578e468fe656b15ce77071516f13489597fc4d098144d1e7502783fe3df119"
+        },
+        {
+          "name": "lookout-close-afternoon",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "close",
+          "theme": "afternoon",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 298973,
+          "sha256": "a82545590827c9e8ee826fac84b248c67cb51db2a18516518a739aa27490f70f"
+        },
+        {
+          "name": "lookout-close-evening",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "close",
+          "theme": "evening",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 284750,
+          "sha256": "fb5d554a4cd20ea09a2d5b15bc6375875aca4619623b833a9730b64b237a22b9"
+        },
+        {
+          "name": "lookout-close-dusk",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "close",
+          "theme": "dusk",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 254538,
+          "sha256": "6ad5fad40849e5af33f3ac6f3efa4a9a80e42b6f4f1fefc385ce1847ca7bd51e"
+        },
+        {
+          "name": "lookout-close-night",
+          "scene": "lookout",
+          "season": "autumn",
+          "framing": "close",
+          "theme": "night",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 222117,
+          "sha256": "6ed213df39117106bf91f6fc2c35f99276ca00af15caa3ff9efd8d937319f25f"
+        }
+      ]
+    }
   ]
 }
