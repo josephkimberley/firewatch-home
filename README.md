@@ -38,14 +38,6 @@ Each panorama combines seven vertical slices of the same scene, captured directl
 
 [![Lookout Close-up panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-close-day-to-night.png)](docs/images/lookout-close-day-to-night.png)
 
-## More on the TV
-
-Lighting is selected manually here; the clock displays the capture time.
-
-| Valley · Morning | Snowy Valley · Night |
-| --- | --- |
-| [![Valley Morning with clock and launcher controls](docs/images/valley-morning.jpg)](docs/images/valley-morning.jpg) | [![Snowy Valley Night with clock and launcher controls](docs/images/snowy-valley-night.jpg)](docs/images/snowy-valley-night.jpg) |
-
 ## Development status
 
 **Private development repository, not yet an installable public release.** Repository: [josephkimberley/firewatch-home](https://github.com/josephkimberley/firewatch-home).
