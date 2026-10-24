@@ -86,6 +86,12 @@ node tools/config.mjs config/default.json
 
 These commands do not contact or modify a TV. No public installation command is supplied until the build, compatibility and rollback paths are ready.
 
-## Artwork and licences
+## Licences and fan-project notice
 
-Approved Firewatch-derived images are included in this private repository at the project owner's request. Credits and adaptations are documented in [ARTWORK.md](docs/ARTWORK.md). Redistribution permission remains unresolved; the artwork is separate from any future app-code licence. No project-wide source licence has yet been selected. Third-party components retain their own notices.
+**Firewatch Home is an unofficial, non-commercial fan project.**
+
+I do not own Firewatch, its original artwork, characters, names or logos, or any other third-party artwork or trademarks included or shown here. All rights to those materials belong to their respective owners. Original Firewatch landscape artwork is credited to **Campo Santo and Olly Moss**. This project is not affiliated with, sponsored by or endorsed by Campo Santo or the other rights holders.
+
+Recolouring, seasonal adaptations and AI upscaling do not transfer ownership of the underlying artwork. This fan-project notice does not grant a licence to use or redistribute third-party materials; their existing rights and licence terms still apply.
+
+Credits, sources and adaptations are documented in [ARTWORK.md](docs/ARTWORK.md). Artwork redistribution permission remains unresolved. No project-wide licence has yet been selected for the original app code; any future code licence will exclude third-party artwork and trademarks. Bundled third-party components, including the Barlow font, retain their own licence notices.

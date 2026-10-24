@@ -1,8 +1,14 @@
 # Artwork, themes and credits
 
-Updated 23 October 2026. At the project owner's request, the approved theme images are included in this private development repository. Inclusion is a packaging decision; redistribution permission remains unresolved. The artwork is not covered by any future licence selected for our app code.
+Updated 24 October 2026.
 
-Firewatch Home is an unofficial fan project, not affiliated with or endorsed by Campo Santo. Original Firewatch landscape artwork is credited to Campo Santo and Olly Moss. Original rights remain with their owners.
+**Firewatch Home is an unofficial, non-commercial fan project.**
+
+I do not own Firewatch, its original artwork, characters, names or logos, or any other third-party artwork or trademarks included or shown here. All rights to those materials belong to their respective owners. Original Firewatch landscape artwork is credited to **Campo Santo and Olly Moss**. This project is not affiliated with, sponsored by or endorsed by Campo Santo or the other rights holders.
+
+Recolouring, seasonal adaptations and AI upscaling do not transfer ownership of the underlying artwork. This fan-project notice does not grant a licence to use or redistribute third-party materials; their existing rights and licence terms still apply.
+
+The included images are part of the current private development snapshot. Redistribution permission remains unresolved. They are not covered by any future licence selected for the original app code.
 
 ## Included collection
 
