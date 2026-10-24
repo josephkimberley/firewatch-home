@@ -1,9 +1,5 @@
 # Firewatch Home for webOS
 
-> **Experimental community preview · 3.1.0.** Locally tested, but the community package has not yet been validated on a fresh TV. It installs as a standalone app: automatic Home replacement, startup optimisation and screensaver integration are not included.
->
-> **[Try it and follow the testing checklist](docs/COMMUNITY_TESTING.md)** · **[Report results or a problem](https://github.com/josephkimberley/firewatch-home/issues/new?template=preview-report.yml)**
-
 [![Valley at Evening — Firewatch Home running on an LG TV](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg)
 
 *Valley · Evening*
@@ -49,6 +45,10 @@ Each panorama combines seven vertical slices of the same scene, captured directl
 [![Lookout Close-up panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-close-day-to-night.png)](docs/images/lookout-close-day-to-night.png)
 
 ## Experimental community preview
+
+> **Experimental community preview · 3.1.0.** Locally tested, but the community package has not yet been validated on a fresh TV. It installs as a standalone app: automatic Home replacement, startup optimisation and screensaver integration are not included.
+>
+> **[Try it and follow the testing checklist](docs/COMMUNITY_TESTING.md)** · **[Report results or a problem](https://github.com/josephkimberley/firewatch-home/issues/new?template=preview-report.yml)**
 
 **For volunteers comfortable testing unfinished software.** Start with the desktop preview; hardware testing is optional and requires a suitable rooted test TV. No community candidate changes have been deployed to the owner's daily-use TV.
 
