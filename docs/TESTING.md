@@ -8,7 +8,7 @@ These checks were run on the community checkout, without connecting to or changi
 | Python tests | 16 passed | Package format, deterministic archives, identity/content verification, mocked installer refusal/transfer/registration/cleanup |
 | Production control/editor mock | 95 assertions passed | Remote navigation, Save/Cancel, rename, unavailable inventory, 50-app scrolling, plain-text labels, all footers |
 | Real Qt Back and pointer gestures | Passed | Press retains panel, release closes it; clicks behind modal panel do not launch tiles |
-| Production main integration | 17 assertions passed | Real temporary Qt Settings; config save/reopen, first-run setup, preserved Appearance, mocked inventory and late callbacks |
+| Production main integration | 52 assertions passed | Real temporary Qt Settings; save/reopen, preserved Appearance, plus ten service/startup/recovery scenarios |
 | Native C helper unit test | Passed | JSON path escaping and output bounds |
 | Runtime assets | Passed | 42 inventoried wallpapers, all active mappings, thumbnails, fonts, compositing assets and app icons |
 | Documentation links | 138 local links resolved | No missing repository targets at verification time |
@@ -55,3 +55,11 @@ The desktop uses Qt 6 software rendering. The actual controls/editor run, but LG
 The settings test proves a successful write and reload in a local temporary directory. QML Settings does not expose reliable disk-full/read-only status, so the mocked failure path is not proof of TV write-failure handling or power-loss durability.
 
 The installer tests simulate remote responses. A real fresh installation, rendering, discovery, launching, persistence, uninstall and update must be verified before a supported release. The standalone package contains no default-Home/startup takeover; the personal development TV's five-second result does not apply automatically to it.
+
+## Extended simulation
+
+The production main integration test now exercises ten scenarios using real event-loop timers: permission denial, malformed service responses, no request token, a service that never replies, a response after timeout, a delayed response inside the deadline, damaged current settings, an unknown current schema plus damaged previous settings, missing packaged configuration, and delayed artwork readiness. All passed. Saved shortcuts survive discovery failures; recovery restores valid defaults; first-run setup waits for artwork. No production app changes were required by these additional tests.
+
+LG’s [current Simulator documentation](https://webostv.developer.lge.com/develop/tools/simulator-introduction) explicitly excludes native apps. Our native QML application therefore uses its own desktop harness. LG’s [older emulator](https://webostv.developer.lge.com/develop/tools/emulator-introduction) was discontinued for webOS TV 22 onward and also has hardware/API limitations. Neither option certifies modern rooted Home/startup integration or Power-to-artwork timing.
+
+Confidence is strongest in the exercised UI/configuration paths, lower in untested device-specific service permissions and native integration. The next hardware evidence can come from an informed volunteer or separate test TV; the owner’s daily-use installation need not be changed.

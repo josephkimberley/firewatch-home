@@ -42,3 +42,5 @@ The production native shell and persistent settings can also be tested with fake
 ```
 
 That test uses real Qt Settings in a temporary directory and reloads the QML engine. LG window/service modules and the artwork renderer are stubs; it does not connect to a TV.
+
+The main integration suite also injects denied, malformed, absent, delayed and late service responses; corrupt/missing configuration; and slow artwork readiness. It takes about half a minute because it exercises the production timeouts. These cases require no TV access.
