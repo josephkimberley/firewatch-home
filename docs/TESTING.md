@@ -1,6 +1,8 @@
-# Community candidate verification — 24 October 2026
+# Experimental community preview verification — 24 October 2026
 
 These checks were run on the community checkout, without connecting to or changing a TV.
+
+**Volunteer testers:** use the [short testing checklist and report form](COMMUNITY_TESTING.md). This page records developer verification; it is not a hardware compatibility certification.
 
 | Check | Result | Scope |
 | --- | --- | --- |

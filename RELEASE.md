@@ -1,4 +1,6 @@
-# Community candidate checklist — 24 October 2026
+# Experimental community preview checklist — 24 October 2026
+
+The preview is suitable for gathering desktop and optional test-TV feedback, not for advertising a supported, plug-and-play Home replacement. Repository visibility remains private until separately approved.
 
 ## Present and locally verified
 
@@ -11,6 +13,7 @@
 - [x] Original app icons and readable shortcut fallback.
 - [x] Pinned ARM build and deterministic standalone package with checksums/manifest.
 - [x] Desktop mock and production-control navigation tests; no TV required.
+- [x] Experimental status, volunteer testing checklist and structured success/problem report form.
 - [x] Dry-run installation plan, mock/read-only preflight and app-only candidate installer.
 
 ## Before calling it a supported standalone release

@@ -1,5 +1,9 @@
 # Firewatch Home for webOS
 
+> **Experimental community preview · 3.1.0.** Locally tested, but the community package has not yet been validated on a fresh TV. It installs as a standalone app: automatic Home replacement, startup optimisation and screensaver integration are not included.
+>
+> **[Try it and follow the testing checklist](docs/COMMUNITY_TESTING.md)** · **[Report results or a problem](https://github.com/josephkimberley/firewatch-home/issues/new?template=preview-report.yml)**
+
 [![Valley at Evening — Firewatch Home running on an LG TV](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg)
 
 *Valley · Evening*
@@ -44,9 +48,9 @@ Each panorama combines seven vertical slices of the same scene, captured directl
 
 [![Lookout Close-up panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-close-day-to-night.png)](docs/images/lookout-close-day-to-night.png)
 
-## Community setup candidate
+## Experimental community preview
 
-**Buildable developer preview; fresh-TV validation is still pending.** This private community branch adds a remote-friendly setup flow without changing the owner's installed TV.
+**For volunteers comfortable testing unfinished software.** Start with the desktop preview; hardware testing is optional and requires a suitable rooted test TV. No community candidate changes have been deployed to the owner's daily-use TV.
 
 Choose your installed apps, reorder them, name and arrange HDMI inputs, and save from the remote. The original Appearance controls and artwork remain. No source edits or AI subscription are needed to use the setup panel.
 
@@ -75,7 +79,7 @@ The package retains the existing Minimal Home app ID. The candidate installer re
 
 ## Hardware and speed
 
-The development TV is an LG OLED48C24LA, webOS 24 / 9.2.2-61, firmware 23.25.55. The owner reported approximately five seconds from Power to forest with Quick Start+ off after the startup fixes. This is not a guarantee for other TVs or every power state. Native LG modules and optional rooted integration require explicit compatibility handling.
+The development TV is an LG OLED48C24LA, webOS 24 / 9.2.2-61, firmware 23.25.55. The owner reported approximately five seconds from Power to forest with Quick Start+ off after the startup fixes. **That result is from the personal installation, not this standalone community package.** The startup fixes are not included here, and no community cold-boot speed is claimed. Native LG modules and any future rooted integration require explicit compatibility handling.
 
 ## Layout
 
@@ -97,7 +101,7 @@ node --test tests/*.test.mjs
 node tools/config.mjs config/default.json
 ```
 
-These commands do not contact or modify a TV. No public installation command is supplied until the build, compatibility and rollback paths are ready.
+These commands do not contact or modify a TV. Optional app-only installation is documented in [Getting started](docs/GETTING_STARTED.md); fresh-TV compatibility, upgrades and complete uninstall remain unverified. See the [testing checklist](docs/COMMUNITY_TESTING.md) before volunteering.
 
 ## Licences and fan-project notice
 

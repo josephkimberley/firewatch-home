@@ -1,6 +1,8 @@
 # Getting started
 
-Firewatch Home now has a buildable **standalone community candidate**, a remote-friendly Apps & Inputs editor, and a desktop mock. It is not yet a verified replacement Home installer for arbitrary LG TVs. The package has been built and tested locally; a fresh TV installation still needs validation.
+Firewatch Home is an **experimental community preview** with a buildable standalone package, a remote-friendly Apps & Inputs editor, and a desktop mock. It is not yet a verified replacement Home installer for arbitrary LG TVs. The package has been built and tested locally; a fresh TV installation still needs validation.
+
+For a short test session, follow the [community testing checklist](COMMUNITY_TESTING.md). Report successful tests as well as problems; include the exact version and environment. There is no tested downloadable release yet: hardware testers currently need to build the package.
 
 ## Try it without a TV
 

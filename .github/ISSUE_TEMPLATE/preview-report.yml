@@ -1,0 +1,85 @@
+name: Experimental preview test report
+description: Share a successful test, a partial result or a problem on desktop or a test TV.
+title: "[Preview] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing. Successful reports are welcome too!
+        Follow the [testing checklist](https://github.com/josephkimberley/firewatch-home/blob/main/docs/COMMUNITY_TESTING.md).
+        This standalone preview does not include automatic Home replacement or the personal TV's startup fixes.
+        Remove serial numbers, IP/MAC addresses, account details, passwords, SSH keys and pairing tokens from attachments. Do not upload full backups.
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Result
+      options:
+        - Works for the checks I tried
+        - Partly works
+        - Blocked before testing
+        - Problem found
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where did you test?
+      options:
+        - Desktop mock (no TV)
+        - Real rooted test TV
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and checkout commit
+      description: Use git rev-parse --short HEAD for the revision; say unknown if unavailable.
+      placeholder: "3.1.0, commit …"
+    validations:
+      required: true
+  - type: textarea
+    id: platform
+    attributes:
+      label: Test environment details
+      description: For TV, include model, webOS version and firmware. For desktop, include OS and Python/PySide6 versions. No device serial or network addresses.
+    validations:
+      required: true
+  - type: dropdown
+    id: installation
+    attributes:
+      label: Installation route
+      options:
+        - Desktop only
+        - New standalone app installation
+        - Installer refused an existing app ID
+        - Installation or prerequisite check failed
+        - Other (explain below)
+    validations:
+      required: true
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Checks attempted and results
+      description: Mark each relevant check Pass, Fail or Not tested. Include any check you skipped. Desktop tests cannot validate real TV services or performance.
+      placeholder: |
+        Navigation and Back:
+        Rename / reorder / hide:
+        Save / Cancel:
+        Persistence after normal app reopen (TV only):
+        Discovery and app/input launching (TV only):
+        Appearance / animations / readability (TV only):
+        Return to LG Home (TV only):
+        Removal (optional):
+        Simulated discovery/save failures (desktop only):
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Problem details or additional observations
+      description: For a problem, provide numbered steps, expected behaviour and actual behaviour. For a successful test, anything else worth knowing. If reporting speed, state the exact start/end points and whether the app had already run.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant error, screenshot or short video
+      description: Optional. Paste only relevant log excerpts and review attachments for private information first.
