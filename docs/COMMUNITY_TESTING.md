@@ -69,7 +69,7 @@ If the app hangs, renders incorrectly or affects input/power behaviour, stop tes
 
 **[Open a preview test report →](https://github.com/josephkimberley/firewatch-home/issues/new?template=preview-report.yml)**
 
-The same form accepts a successful test, a partial result or a bug. Repository access is currently required because this repository is private. If the form does not load, open a normal issue and copy the outline below.
+The same form accepts a successful test, a partial result or a bug. The repository and reports are public; sign in to GitHub to submit a report. If the form does not load, open a normal issue and copy the outline below.
 
 ```text
 Outcome: Works / Partly works / Blocked / Problem found

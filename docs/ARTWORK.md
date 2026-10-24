@@ -8,7 +8,7 @@ I do not own Firewatch, its original artwork, characters, names or logos, or any
 
 Recolouring, seasonal adaptations and AI upscaling do not transfer ownership of the underlying artwork. This fan-project notice does not grant a licence to use or redistribute third-party materials; their existing rights and licence terms still apply.
 
-The included images are part of the current private development snapshot. Redistribution permission remains unresolved. They are not covered by any future licence selected for the original app code.
+The included images are part of the experimental community preview. Redistribution permission remains unresolved. They are not covered by any future licence selected for the original app code.
 
 ## Included collection
 

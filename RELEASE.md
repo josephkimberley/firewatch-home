@@ -1,10 +1,10 @@
 # Experimental community preview checklist — 24 October 2026
 
-The preview is suitable for gathering desktop and optional test-TV feedback, not for advertising a supported, plug-and-play Home replacement. Repository visibility remains private until separately approved.
+The preview is suitable for gathering desktop and optional test-TV feedback, not for advertising a supported, plug-and-play Home replacement. The repository was made public with owner approval on 24 October 2026; this does not change the experimental support or licensing status.
 
 ## Present and locally verified
 
-- [x] Independent private repository, with artwork credits and licence limitations.
+- [x] Independent repository, with artwork credits and licence limitations.
 - [x] All 42 wallpaper mappings, 28 previews, fonts and compositing assets checked.
 - [x] Configuration connected to the native controls; variable app/input counts and safe defaults.
 - [x] Remote Apps & Inputs editor, discovered-app selection, rename/reorder/hide and Cancel.
@@ -33,11 +33,12 @@ The preview is suitable for gathering desktop and optional test-TV feedback, not
 - [ ] Receipts, independent disable path and tested stock-Home rollback.
 - [ ] Cold/warm startup tests with normal Settings, power-off and HDMI/CEC behaviour.
 
-## Before making the repository public
+## Publication and outstanding licensing work
 
 - [ ] Finish provenance review and select the source-code licence.
 - [ ] Resolve artwork redistribution status; fan-project attribution is not permission.
-- [ ] Repeat private-data/credential audit and review third-party notices.
-- [ ] Obtain approval for public visibility.
+- [x] Scan tracked files and reachable Git history for credentials, private addresses and personal paths; inspect image metadata (24 October 2026).
+- [ ] Complete third-party notice and provenance review.
+- [x] Owner approved public visibility; GitHub confirmed Public on 24 October 2026.
 
 The candidate retains `uk.local.minimalhome.native` and its app-owned settings directory. The installer refuses to replace an existing copy. No community candidate or setup-editor change has been deployed to the owner's daily-use TV. [Build](docs/BUILD.md), [Getting started](docs/GETTING_STARTED.md), [Recovery](docs/RECOVERY.md), [Remaining portability work](docs/PORTABILITY.md).
