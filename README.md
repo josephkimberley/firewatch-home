@@ -50,6 +50,16 @@ Each panorama combines seven vertical slices of the same scene, captured directl
 
 The intended experience is install, launch and enjoy the included themes, with automatic app discovery and easy app/HDMI customization. That setup flow is still being built. This is an independent QML app with a small C entry point; OpenLauncher was a comparison and integration reference.
 
+## Running and customising
+
+**Developer preview. AI-assisted setup guidance is included, but Codex or Claude is not required to run the finished app.** The current checkout still needs build, asset and configuration work before it can be installed as a complete package.
+
+- [Running the project: what works today and the deployment path](docs/GETTING_STARTED.md)
+- [Customising apps, HDMI inputs, clock and themes](docs/CUSTOMIZATION.md)
+- [Example prompts for Codex or Claude](docs/AI_ASSISTED_SETUP.md)
+- [Portability assessment and steps towards plug-and-play](docs/PORTABILITY.md)
+- [Recovery and optional root-integration requirements](docs/RECOVERY.md)
+
 ## Included
 
 - Current QML/JS/shader snapshot: native 3.0.7, `back-panel-v3`.

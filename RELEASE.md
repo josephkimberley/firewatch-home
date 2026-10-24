@@ -1,4 +1,4 @@
-# Firewatch Home release checklist — 23 October 2026
+# Firewatch Home release checklist — 24 October 2026
 
 ## Private development snapshot
 
@@ -10,13 +10,15 @@
 - [x] Configuration contract, offline validator and app/HDMI mapping tests.
 - [x] Artwork credits and separation from the future code licence documented.
 
+The implementation order and acceptance criteria are in [the portability plan](docs/PORTABILITY.md). Reader guidance: [running](docs/GETTING_STARTED.md), [customisation](docs/CUSTOMIZATION.md), and [AI-assisted setup](docs/AI_ASSISTED_SETUP.md).
+
 ## Before it is plug-and-play
 
 - [ ] Integrate configuration into QML: automatic app discovery, variable tile counts, ordering, HDMI naming, icon fallback and missing apps.
 - [ ] Add import/export/reset and atomic preference migration.
 - [ ] Make timezone configurable beyond the existing UK clock.
 - [ ] Pin the ARM toolchain; reconcile the C launcher source with the current binary and make compilation/package creation reproducible.
-- [ ] Include and inventory required launcher icons; validate every runtime asset reference.
+- [ ] Include app icon/large icon, launcher icons or fallbacks, and their notices; validate every runtime asset reference.
 - [ ] Build theme import/update tooling and configuration UI.
 - [ ] Extract generic root integration with compatibility detection, firmware/hash guards, receipts and tested rollback. No LG source/binary dumps.
 - [ ] Provide one supported installation path, preference-preserving updates and complete uninstall restoring stock LG Home.

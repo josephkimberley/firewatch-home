@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "youtube.leanback.v4",
+      "label": "YouTube"
+    },
+    {
+      "id": "amazon",
+      "label": "Prime Video"
+    }
+  ],
+  "inputs": [
+    {
+      "port": 3,
+      "label": "Streaming box"
+    },
+    {
+      "port": 1,
+      "label": "Console"
+    }
+  ],
+  "clock": {
+    "timeZone": "Europe/London",
+    "format": "24h"
+  },
+  "scene": {
+    "theme": "autumn",
+    "period": "auto",
+    "motion": true
+  },
+  "layout": {
+    "groupGap": 32,
+    "divider": true,
+    "inputTintOpacity": 0.08
+  }
+}
