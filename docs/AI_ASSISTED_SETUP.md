@@ -2,7 +2,7 @@
 
 [Running the project](GETTING_STARTED.md) · [Customisation](CUSTOMIZATION.md) · [Release plan](PORTABILITY.md)
 
-**This is an AI-assisted development workflow, not an automated installer.** The app runs on the TV; it does not require Codex or Claude to remain running. The current checkout needs release engineering before ordinary users can install it. An assistant must not describe planned features or a successful JSON validation as a working deployment.
+**This is an AI-assisted development workflow, not an automated installer.** The app runs on the TV; it does not require Codex or Claude to remain running. The current checkout builds a standalone candidate; fresh-TV runtime and update/recovery validation remain outstanding. An assistant must not describe planned features or a successful JSON validation as a working deployment.
 
 Open a local clone in your coding assistant. Keep credentials, TV addresses and private backup material outside the repository. Replace the bracketed details in the prompts below; do not paste private keys into a prompt.
 
@@ -33,31 +33,29 @@ Clock: [timezone], [12h or 24h].
 
 Do not invent app IDs or change HDMI ports to match display order. Ask for
 missing IDs or use an authorised read-only installed-app inventory. Run the
-offline validator. Explain that the current runtime does not consume this
-file yet. Make no TV changes and do not commit my local configuration.
+offline validator. The build consumes config/default.json as launcher-config.json;
+build with --config local/config.json to include my choices without committing them. Make no TV changes.
 ```
 
-## 3. Implement portable customisation
+## 3. Test the setup flow locally
 
 ```text
-Implement the first milestone in docs/PORTABILITY.md in a local branch:
-connect validated app/HDMI configuration to the native UI without changing
-the approved artwork or animations. Replace parallel hard-coded arrays with
-one target model, derive layout and focus bounds from group lengths, and
-provide an icon/text fallback. Keep physical HDMI ports independent of order.
+Read preview/README.md, then run the production control/editor tests and the
+Node/Python suites. Use the desktop mock to test one app, inputs only,
+reordered HDMI, discovery denied, failed saves and nested Back. Keep the
+approved artwork and animation source intact. Inspect screenshots for clipping
+and focus visibility at a smaller window size. Do not connect to a TV.
 
-Preserve existing preferences through a versioned migration and retain the
-last valid configuration if a new file is invalid. Test apps-only,
-inputs-only, both groups, missing apps/icons, ordering and focus restoration.
-Keep clock/theme work explicitly scoped; do not silently claim the whole
-config contract is implemented. Do not deploy or modify root integration.
+Report which production components are exercised and which platform services
+are mocked. A static desktop background is not evidence of TV shader or boot
+performance. Fix failures and provide a small test receipt.
 ```
 
 ## 4. Prepare a reproducible app-only package
 
 ```text
 Review the native launcher, manifest, imports and asset references. Establish
-and document a reproducible build for the verified target ABI. Do not invent
+and run the pinned build from docs/BUILD.md. Do not invent
 a build command or package missing executable/icon/logo assets. Do not bundle
 LG proprietary binaries or libraries from a TV dump. Record source/toolchain
 versions, package checksums and unresolved dependency/licence issues.

@@ -1,6 +1,6 @@
 import QtQuick 2.12
 import "SceneMath.js" as MathScene
-import "UKClock.js" as UKClock
+import "RuntimeClock.js" as RuntimeClock
 import "Appearance.js" as Appearance
 import "SceneShaders.js" as Shaders
 
@@ -8,6 +8,8 @@ Item {
     id: scene
     width: 1920; height: 1080
     clip:true
+    property string timeZone:"system"
+    onTimeZoneChanged:scheduleSample()
     property string season: "autumn"
     property string sceneName:"valley"
     property string styleName:"colour"
@@ -62,7 +64,7 @@ Item {
     function sample() {
         if(!initialized||selectionQueued)return;
         var settings=Appearance.state(sceneName,season,styleName,theme,framing,playing);
-        var now=UKClock.parts(Date.now()),light=settings.style==="ember"?{a:4,b:4,mix:0}:MathScene.sample(settings.theme,now.decimalHour);
+        var now=RuntimeClock.parts(Date.now(),timeZone),light=settings.style==="ember"?{a:4,b:4,mix:0}:MathScene.sample(settings.theme,now.decimalHour);
         var nextWinterStars=settings.scene==='valley'&&settings.season==='winter'&&settings.style==='colour'&&(light.a===6||light.b===6);
         period=MathScene.title(light.mix<.5?light.a:light.b);
         var key=settings.scene+":"+settings.season+":"+settings.style+":"+light.a+":"+light.b+":"+(settings.scene==="lookout"?settings.framing:"wide");

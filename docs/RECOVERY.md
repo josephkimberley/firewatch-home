@@ -1,6 +1,8 @@
 # Public installer and recovery requirements
 
-This is a release design, not executable recovery instructions. The development TV's exact recovery records remain in its private change register and backups. Do not use this document to reconstruct those device-specific transactions.
+This describes the future root-integration recovery requirements. The current standalone candidate includes no root integration and its installer refuses to overwrite an existing app. Remove that app using LG Home’s app-management UI; its app-owned preferences may remain for reinstall. Full upgrade/rollback and uninstall behaviour still need a fresh-device test.
+
+The integration steps below are a release design, not executable recovery instructions. The development TV's exact recovery records remain in its private change register and backups. Do not use this document to reconstruct those device-specific transactions.
 
 Before any public root integration, the installer must positively identify supported firmware and stock file hashes, record existing settings and mounts, create verified backups outside the app package, and refuse unknown or already-modified state. A model name alone is insufficient compatibility evidence.
 

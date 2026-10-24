@@ -1,0 +1,3 @@
+uid=1000
+arch=aarch64
+present=/usr/bin/luna-send

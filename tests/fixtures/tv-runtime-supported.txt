@@ -1,0 +1,5 @@
+uid=0
+arch=armv7l
+present=/usr/bin/qml-runner
+present=/usr/bin/luna-send
+homebrew=yes

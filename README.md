@@ -44,33 +44,34 @@ Each panorama combines seven vertical slices of the same scene, captured directl
 
 [![Lookout Close-up panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-close-day-to-night.png)](docs/images/lookout-close-day-to-night.png)
 
-## Development status
+## Community setup candidate
 
-**Private development repository, not yet an installable public release.** Repository: [josephkimberley/firewatch-home](https://github.com/josephkimberley/firewatch-home).
+**Buildable developer preview; fresh-TV validation is still pending.** This private community branch adds a remote-friendly setup flow without changing the owner's installed TV.
 
-The intended experience is install, launch and enjoy the included themes, with automatic app discovery and easy app/HDMI customization. That setup flow is still being built. This is an independent QML app with a small C entry point; OpenLauncher was a comparison and integration reference.
+Choose your installed apps, reorder them, name and arrange HDMI inputs, and save from the remote. The original Appearance controls and artwork remain. No source edits or AI subscription are needed to use the setup panel.
 
-## Running and customising
+[![Apps and Inputs editor in the desktop mock](docs/images/community-setup.png)](docs/images/community-setup.png)
 
-**Developer preview. AI-assisted setup guidance is included, but Codex or Claude is not required to run the finished app.** The current checkout still needs build, asset and configuration work before it can be installed as a complete package.
+*Desktop mock of the real setup controls, using a static wallpaper and simulated apps—not a TV capture or performance test.*
 
-- [Running the project: what works today and the deployment path](docs/GETTING_STARTED.md)
-- [Customising apps, HDMI inputs, clock and themes](docs/CUSTOMIZATION.md)
-- [Example prompts for Codex or Claude](docs/AI_ASSISTED_SETUP.md)
-- [Portability assessment and steps towards plug-and-play](docs/PORTABILITY.md)
-- [Recovery and optional root-integration requirements](docs/RECOVERY.md)
+- **[Try the desktop preview](preview/README.md)** — no TV connection; arrows, Enter and Escape work like the remote.
+- **[Build and install the standalone candidate](docs/GETTING_STARTED.md)** — pinned build, checksummed package and dry-run installer.
+- **[Customise apps, HDMI inputs and clock](docs/CUSTOMIZATION.md)** — on-screen setup or a validated JSON configuration.
+- [Build details](docs/BUILD.md) · [Test record](docs/TESTING.md) · [Portability and remaining work](docs/PORTABILITY.md) · [Recovery](docs/RECOVERY.md)
+- [Optional prompts for Codex or Claude](docs/AI_ASSISTED_SETUP.md) · [Ideas studied from CleanYourTV and Slopbro](docs/UPSTREAM_IDEAS.md)
 
 ## Included
 
-- Current QML/JS/shader snapshot: native 3.0.7, `back-panel-v3`.
-- Valley and Lookout, each in Autumn and Winter, with seven lighting periods.
-- Dedicated Lookout close-up variants: 42 wallpapers in total, plus 28 small previews and Winter night compositing assets.
-- Floating Cards Appearance menu, separate Auto toggle and Motion control; no Ember.
-- Back closes Appearance only; Red opens LG Home through the optional rooted mapping, with a small on-screen hint.
-- Barlow Condensed fonts with their OFL notice.
-- Offline configuration validator/tests and release documentation.
+- Native QML/JavaScript renderer and a small, reproducibly compiled ARM launcher.
+- Valley and Lookout, Autumn and Winter, including Lookout close-up: 42 wallpapers and seven times of day.
+- Floating Cards Appearance, separate Auto and Motion controls; no Ember.
+- Apps & Inputs editor with discovered-app selection, rename, reorder, hide, Save and Cancel.
+- Up to five apps and four HDMI shortcuts; readable labels when a logo is unavailable.
+- Configurable system/UTC/London clock and 12/24-hour format; matching automatic lighting.
+- Back dismisses panels. Red and an on-screen action request LG Home while this app is active.
+- Original app icons, Barlow fonts with OFL notice, asset checks and desktop/mock tests.
 
-Current source still uses fixed app/HDMI tiles and the existing Minimal Home package ID. The proposed JSON configuration is not connected yet. Logo assets, reproducible native build tooling and generic root integration remain outstanding. See [release checklist](RELEASE.md).
+The package retains the existing Minimal Home app ID. The candidate installer refuses an existing installation. Default-Home/startup takeover and screensaver integration are **not** included in the standalone package. See the [release checklist](RELEASE.md).
 
 ## Hardware and speed
 
@@ -79,10 +80,12 @@ The development TV is an LG OLED48C24LA, webOS 24 / 9.2.2-61, firmware 23.25.55.
 ## Layout
 
 - `src/native/`: current QML, shaders, fonts and approved theme files.
-- `src/launcher.c`: retained launcher source; reproducible current binary build still to be completed.
-- `config/default.json`, `tools/config.mjs`, `tests/`: proposed portable app/HDMI configuration and offline tests.
+- `src/launcher.c`: native entry point; `tools/build.mjs` builds and packages it.
+- `config/default.json`, `tools/config.mjs`, `tests/`: runtime configuration contract and offline tests.
 - `themes/inventory.json`: exact image paths, dimensions, sizes, hashes and rights status.
-- `SOURCE-MANIFEST.json`: source/font snapshot hashes.
+- `SOURCE-MANIFEST.json`: community source/font hashes.
+- `preview/`: desktop setup mock and navigation tests.
+- `tools/install_app.py`: dry-run/read-only/app-only candidate installation.
 - `docs/`: architecture, customization, artwork and recovery requirements.
 
 ## Local checks

@@ -1,7 +1,7 @@
 {
   "id": "uk.local.minimalhome.native",
-  "version": "3.0.7",
-  "vendor": "Personal",
+  "version": "3.1.0",
+  "vendor": "Firewatch Home community",
   "type": "native",
   "main": "minimal-home",
   "title": "Firewatch Home",

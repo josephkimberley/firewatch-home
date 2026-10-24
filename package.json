@@ -1,11 +1,14 @@
 {
-  "name": "firewatch-home-release-preparation",
-  "version": "0.0.0",
+  "name": "firewatch-home-community",
+  "version": "3.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "validate": "node tools/config.mjs config/default.json"
+    "validate": "node tools/config.mjs config/default.json",
+    "build": "node tools/build.mjs",
+    "check:assets": "node tools/check-assets.mjs",
+    "test:package": "python3 -m unittest discover -s tests -p 'test_*.py'"
   },
   "engines": {
     "node": ">=20"

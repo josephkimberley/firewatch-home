@@ -2,7 +2,9 @@
 
 The entry point creates an app-owned preference directory, sets rendering environment variables for its own process and executes LG's qml-runner. The UI uses QtQuick and LG's Eos.Window/WebOSServices modules. HomeControls emits launch intent; main.qml owns Luna application-manager requests and preferences. PaintedScene, shaders and BirdMesh draw the scene. StartupCover handles the separate system-cover readiness interaction.
 
-The checked-in C entry point and QML snapshot still use the development app ID and installation layout. They are a reproducible source snapshot, not a reproducible binary build yet. No LG Qt libraries, LG executables, ARM toolchain or compiled launcher are bundled. Establish and pin a compatible cross-build toolchain, then verify the produced executable before publishing build instructions.
+The community C entry point retains the existing app ID and preference directory, resolves its QML relative to the executable, and is compiled with pinned Zig 0.13.0. The build creates a static ARM launcher and a checksummed app-only IPK; see [Build](BUILD.md). No LG Qt libraries, LG executables or toolchain are bundled.
+
+Community `main.qml` loads the packaged configuration with a bounded timeout, restores valid saved/previous settings, and requests a bounded installed-app inventory. `HomeControls` derives its model, geometry and focus from that configuration. `AppsInputsPanel` edits a draft and emits Save intent; `main.qml` owns persistence. Failed discovery leaves the existing shortcuts available. The desktop integration tests replace only the LG platform modules and artwork renderer, preserving the production main/controls/editor logic and real temporary Qt Settings.
 
 Optional rooted integration is separate from rendering: startup-input selection, Home/red mapping, cover presentation/readiness, and a narrowly scoped foreground screensaver helper. Those integrations must be independently installable and reversible. They are deliberately absent from this initial source export because the development scripts contain personal paths and firmware-specific LG copies.
 
@@ -18,4 +20,4 @@ OpenLauncher reference: https://github.com/Shantil-K/OpenLauncher . Its locally 
 
 ## Back-button routing
 
-LG may show its exit dialog before QML sees Back. The native window declares `_WEBOS_ACCESS_POLICY_KEYS_BACK` as string `true` through its `windowProperties` map. `WebOS.Key_webOS_Back` is normalized alongside Qt Back, Escape and browser keycode 461. The gesture is consumed on press and acted on non-repeated release: Appearance closes and restores its focus; Back on the main screen does nothing. Red opens LG Home through the separate optional root mapping. The footer hint does not add another focus stop.
+LG may show its exit dialog before QML sees Back. The native window declares `_WEBOS_ACCESS_POLICY_KEYS_BACK` as string `true` through its `windowProperties` map. `WebOS.Key_webOS_Back` is normalized alongside Qt Back, Escape and browser keycode 461. The gesture is consumed on press and acted on non-repeated release: An open panel or nested editor closes and restores its focus; Back on the main screen does nothing. In the community app, Red requests LG Home while Firewatch Home has focus, and the LG Home footer is also focusable/clickable. A global Home/red mapping remains a separate integration.

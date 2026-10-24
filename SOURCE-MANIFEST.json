@@ -1,8 +1,13 @@
 {
-  "baseline": "native 3.0.7 / back-panel-v3",
-  "date": "2026-10-23",
-  "scope": "Current QML/JS/shaders and approved theme images. Artwork inventory separate; no compiled launcher, TV credentials, firmware patches or root integration scripts.",
+  "baseline": "Community candidate 3.1.0; visual renderer based on native 3.0.7 / back-panel-v3",
+  "date": "2026-10-24",
+  "scope": "Community source, app icons and fonts. Artwork inventory separate. No compiler, TV credentials, LG firmware or root-integration scripts.",
   "files": [
+    {
+      "path": "src/launcher.c",
+      "bytes": 2661,
+      "sha256": "3f4d7577a709492ff610f2debe1c366af10b266b66d0460ff87b4cdd273e48fc"
+    },
     {
       "path": "src/native/Appearance.js",
       "bytes": 3465,
@@ -14,19 +19,39 @@
       "sha256": "ec37b45bf54ecf1ab4aaee78917b3c8a39eb4440257f6acb9af968d00d4a1423"
     },
     {
+      "path": "src/native/AppsInputsPanel.qml",
+      "bytes": 20196,
+      "sha256": "3201c3f95bf01892220434c086ff3503f1ada79b8d21636c60088cb5bf503f8e"
+    },
+    {
       "path": "src/native/BirdMesh.qml",
       "bytes": 731,
       "sha256": "57466f3e2362725d455f3ddc8e10a07e2ade06c99fef941b25418b85daf06be8"
     },
     {
+      "path": "src/native/ConfigStore.js",
+      "bytes": 3265,
+      "sha256": "a9539bb502af979cdf3fa866834ce063dafd97f32970763607b62890f039e6e3"
+    },
+    {
       "path": "src/native/HomeControls.qml",
-      "bytes": 17424,
-      "sha256": "b3f228850081779ff7783a15b34645babd44efc5f7b301db7ae2c6736c612ee5"
+      "bytes": 20142,
+      "sha256": "3fc7e2509f68fcccf1a4d0ebfc4458ff7962d6929a4612f9bfb097a1f2eab490"
+    },
+    {
+      "path": "src/native/LauncherConfig.js",
+      "bytes": 5943,
+      "sha256": "19b3e582d85c9952e73662889ae7348a2196df0105a1b2847c86df2022c90245"
     },
     {
       "path": "src/native/PaintedScene.qml",
-      "bytes": 9739,
-      "sha256": "ba4f915cb71213df4312f12c0c4cdeeb2b94c313f8adb92ede75dc25aac72b0f"
+      "bytes": 9840,
+      "sha256": "6a83a2881eb479420e9349006752ea56fbed11a615670bb254b98660b4e8299a"
+    },
+    {
+      "path": "src/native/RuntimeClock.js",
+      "bytes": 1288,
+      "sha256": "3791ca2fb9417af6ec9c42a48714eadd990e1e3835a78196d91f5c9b063c15ed"
     },
     {
       "path": "src/native/SceneMath.js",
@@ -55,8 +80,8 @@
     },
     {
       "path": "src/native/appinfo.json",
-      "bytes": 410,
-      "sha256": "de42e711c940fcc580f240c8f5db3bbd99363d8b1d9dd0420c29690356fbe0bc"
+      "bytes": 426,
+      "sha256": "7f875200d0f6ee5e7d5f41bebd681fb68e502e71e19ab6c5376ae09b946937d0"
     },
     {
       "path": "src/native/bird.frag",
@@ -67,37 +92,6 @@
       "path": "src/native/bird.vert",
       "bytes": 4268,
       "sha256": "d5f931e59c2763324aa92491c469a7d24d79832d7d061019098158d2d7ada8a0"
-    },
-    {
-      "path": "src/native/landscape.frag",
-      "bytes": 749,
-      "sha256": "5ab1dd6f8813c17a1df9fd2dfeb0eeb763a823f323d272b55b965da736c1a888"
-    },
-    {
-      "path": "src/native/landscape.vert",
-      "bytes": 1991,
-      "sha256": "e209ed1af6e17d35aefde97f3751e3f73e4b606c80272fc2fd75651ca644552b"
-    },
-    {
-      "path": "src/native/main.qml",
-      "bytes": 7249,
-      "sha256": "e803a442e29c8e5c5339c2144af98136a21b2d9a4d4f81e57a1592aee9ea4c19"
-    },
-    {
-      "path": "src/native/meteor.frag",
-      "bytes": 156,
-      "sha256": "2b72f973c2acd6e2fb09182369488198bf67a3fb1cbd33edbfc1dd396125dd63"
-    },
-    {
-      "path": "src/native/meteor.vert",
-      "bytes": 324,
-      "sha256": "90fad048c8ade6cb9e4c38ec6b9f2a0e8a49287835e20da5ba0922770bf82da9"
-    },
-    {
-      "path": "src/launcher.c",
-      "bytes": 1124,
-      "sha256": "50b3bdfb6307f826ccb6c543f91b4ec98f8a1d3584aaa4bad8316ae1d8d1e488",
-      "note": "Prior source snapshot retained; reproducible launcher build remains outstanding."
     },
     {
       "path": "src/native/fonts/BarlowCondensed-Medium.ttf",
@@ -118,6 +112,41 @@
       "path": "src/native/fonts/OFL-Barlow.txt",
       "bytes": 4377,
       "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": "src/native/icon.png",
+      "bytes": 498,
+      "sha256": "e8d9ae5e6d5c01ef80c9bd39f3f631fa7a75df6528f89be535fa58d58493a090"
+    },
+    {
+      "path": "src/native/landscape.frag",
+      "bytes": 749,
+      "sha256": "5ab1dd6f8813c17a1df9fd2dfeb0eeb763a823f323d272b55b965da736c1a888"
+    },
+    {
+      "path": "src/native/landscape.vert",
+      "bytes": 1991,
+      "sha256": "e209ed1af6e17d35aefde97f3751e3f73e4b606c80272fc2fd75651ca644552b"
+    },
+    {
+      "path": "src/native/large-icon.png",
+      "bytes": 820,
+      "sha256": "9bb7fec618a945f742acb38899bfafc8481ee0f723ed75fab54c1ffcbd346b34"
+    },
+    {
+      "path": "src/native/main.qml",
+      "bytes": 12657,
+      "sha256": "219da875e40675f1aca0bd220a2d453874ca857997f00f4920d87cb59bc25b24"
+    },
+    {
+      "path": "src/native/meteor.frag",
+      "bytes": 156,
+      "sha256": "2b72f973c2acd6e2fb09182369488198bf67a3fb1cbd33edbfc1dd396125dd63"
+    },
+    {
+      "path": "src/native/meteor.vert",
+      "bytes": 324,
+      "sha256": "90fad048c8ade6cb9e4c38ec6b9f2a0e8a49287835e20da5ba0922770bf82da9"
     }
   ]
 }

@@ -1,39 +1,40 @@
-# Firewatch Home release checklist — 24 October 2026
+# Community candidate checklist — 24 October 2026
 
-## Private development snapshot
+## Present and locally verified
 
-- [x] Independent project in the private `josephkimberley/firewatch-home` repository.
-- [x] QML/JS/shader snapshot refreshed from installed `back-panel-v3`.
-- [x] All 42 approved wallpapers, 28 previews and three Winter compositing assets copied exactly and inventoried.
-- [x] Barlow fonts and OFL notice bundled.
-- [x] Floating Cards menu; seven manual times and separate Auto; Ember excluded.
-- [x] Configuration contract, offline validator and app/HDMI mapping tests.
-- [x] Artwork credits and separation from the future code licence documented.
+- [x] Independent private repository, with artwork credits and licence limitations.
+- [x] All 42 wallpaper mappings, 28 previews, fonts and compositing assets checked.
+- [x] Configuration connected to the native controls; variable app/input counts and safe defaults.
+- [x] Remote Apps & Inputs editor, discovered-app selection, rename/reorder/hide and Cancel.
+- [x] Inventory failure path and invalid-settings fallback.
+- [x] Shared clock zone for display and automatic lighting; system/UTC/London, 12/24-hour format.
+- [x] Original app icons and readable shortcut fallback.
+- [x] Pinned ARM build and deterministic standalone package with checksums/manifest.
+- [x] Desktop mock and production-control navigation tests; no TV required.
+- [x] Dry-run installation plan, mock/read-only preflight and app-only candidate installer.
 
-The implementation order and acceptance criteria are in [the portability plan](docs/PORTABILITY.md). Reader guidance: [running](docs/GETTING_STARTED.md), [customisation](docs/CUSTOMIZATION.md), and [AI-assisted setup](docs/AI_ASSISTED_SETUP.md).
+## Before calling it a supported standalone release
 
-## Before it is plug-and-play
+- [ ] Fresh-TV install, LG imports/permissions, render/animation and remote tests.
+- [ ] App/input launching and app discovery verified across supported firmware.
+- [ ] Durable persistence errors reported through a native adapter; import/export/reset.
+- [ ] Preference-preserving update with previous-package backup and tested rollback.
+- [ ] Complete uninstall verified on fresh and upgraded installations.
+- [ ] Publish tested hardware/firmware and reproducible performance measurements.
+- [ ] Provide downloadable tested release artifacts so users need no compiler.
 
-- [ ] Integrate configuration into QML: automatic app discovery, variable tile counts, ordering, HDMI naming, icon fallback and missing apps.
-- [ ] Add import/export/reset and atomic preference migration.
-- [ ] Make timezone configurable beyond the existing UK clock.
-- [ ] Pin the ARM toolchain; reconcile the C launcher source with the current binary and make compilation/package creation reproducible.
-- [ ] Include app icon/large icon, launcher icons or fallbacks, and their notices; validate every runtime asset reference.
-- [ ] Build theme import/update tooling and configuration UI.
-- [ ] Extract generic root integration with compatibility detection, firmware/hash guards, receipts and tested rollback. No LG source/binary dumps.
-- [ ] Provide one supported installation path, preference-preserving updates and complete uninstall restoring stock LG Home.
-- [ ] Verify on clean supported installations; state tested hardware/firmware and startup measurement conditions. Approximately five seconds is a reported C2 result, not a universal LG guarantee.
+## Before default Home integration
 
-## Before public release
+- [ ] Portable compatibility checks and firmware/hash guards.
+- [ ] Home/red routing, startup and screensaver components separately enabled/disabled.
+- [ ] Receipts, independent disable path and tested stock-Home rollback.
+- [ ] Cold/warm startup tests with normal Settings, power-off and HDMI/CEC behaviour.
 
-- [ ] Complete source provenance review and select a compatible source licence.
-- [ ] Resolve/document artwork redistribution status; bundling locally does not establish permission.
-- [ ] Sanitize per-image processing/provenance records and verify logo/dependency notices.
-- [x] Scan the initial private export for private data, credentials, personal paths and hidden/symlinked files; repeat before public release.
-- [x] Owner and private repository confirmed: `josephkimberley/firewatch-home`.
-- [ ] Review final public contents and obtain explicit approval before changing visibility.
-- [ ] Document existing Minimal Home package ID and any future migration without breaking installed preferences/startup.
+## Before making the repository public
 
-This is an independent Firewatch Home repository, not an OpenLauncher skin. Repository-only SSH publishing access is configured on the development Mac; credentials are excluded from the repository.
+- [ ] Finish provenance review and select the source-code licence.
+- [ ] Resolve artwork redistribution status; fan-project attribution is not permission.
+- [ ] Repeat private-data/credential audit and review third-party notices.
+- [ ] Obtain approval for public visibility.
 
-The app-only Back fix is installed separately on the development TV with rollback records. The source snapshot reflects current UI/art behaviour, but app tiles are still fixed in QML; configuration tooling is not connected to the runtime. No compiled binaries or private root integration scripts are included.
+The candidate retains `uk.local.minimalhome.native` and its app-owned settings directory. The installer refuses to replace an existing copy. No community candidate or setup-editor change has been deployed to the owner's daily-use TV. [Build](docs/BUILD.md), [Getting started](docs/GETTING_STARTED.md), [Recovery](docs/RECOVERY.md), [Remaining portability work](docs/PORTABILITY.md).

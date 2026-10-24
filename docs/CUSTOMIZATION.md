@@ -1,26 +1,29 @@
-# Customising apps, HDMI, clock and themes
+# Make Firewatch Home yours
 
-[Running the project](GETTING_STARTED.md) · [Codex / Claude prompts](AI_ASSISTED_SETUP.md)
+[Running the project](GETTING_STARTED.md) · [Codex / Claude prompts](AI_ASSISTED_SETUP.md) · [Portability status](PORTABILITY.md)
 
-## Current configuration status
+## Apps & Inputs
 
-`config/default.json` is a proposed portable format with a working offline validator. It is not yet consumed by the QML app. Editing it will not change the TV.
+The community source now includes a remote-friendly **Apps & Inputs** editor. This is separate from Appearance, so choosing a wallpaper stays simple. It opens on first use and is also available in the footer. It has been tested locally with a simulated TV; installation and app discovery on additional real TV models still require verification.
 
-Apps are ordered entries with `id`, `label` and an optional relative `icon` path. IDs are the installed app IDs, which can differ by region and app variant. The UK examples are not an app installer or a guarantee those apps exist. Planned runtime behavior: keep an unavailable app visible, show a clear message on launch failure, and allow removal in settings.
+- Select up to **five apps** and **four HDMI inputs**. Either group can be empty, but keep at least one tile.
+- Change labels, reorder the entries or remove unused tiles. A label never changes the app ID or physical HDMI port.
+- Save to apply, or press **Back** to discard unsaved changes and close the editor.
+- Missing app shortcuts are labelled after successful discovery. The bundled UK app examples may not be installed on your TV; replace or remove them.
 
-Inputs are ordered entries with physical `port` 1–4, `label` and an optional icon. A port determines the target ID independently of the entry's position or name. For example, `{ "port": 3, "label": "Streaming box" }` always targets HDMI 3 even if moved to the first tile.
+For example, a tile named “Streaming box” with `port: 3` opens HDMI 3 wherever you place it in the row. Moving it to the first position does not change it to HDMI 1.
 
-The first layout contract permits up to five apps and four inputs; either group may be empty. Runtime navigation and positioning must be adapted and tested for each count before that flexibility ships. Icon paths must be local PNG/SVG asset paths; the eventual importer must also verify file contents and reject symlinks escaping the asset directory.
+App discovery supplies the installed app IDs when the platform permits it. If discovery is unavailable, the editor explains that; existing app shortcuts and HDMI inputs remain editable. Adding an app without discovery requires the advanced JSON workflow below. Firewatch Home does not install other apps, sign into services or guess passwords. An unavailable app gives a launch error instead of freezing the home screen.
 
-`clock.timeZone` is `system` or an IANA timezone such as `Europe/London`. `clock.format` is `12h` or `24h`. The Node validator checks IANA support on the host; this does not prove that the TV's Qt runtime can implement every timezone. That adapter is an outstanding release task. UK time must switch between GMT and BST rather than hard-coding UTC+1.
+Icons are optional. The launcher uses a packaged custom icon first, then a discovered app icon inside that app’s known LG installation directory. Those TV-specific paths are display-only and are not saved into portable configuration. A missing icon falls back to a readable app or input label. The community package does not depend on the original developer's private logo folder.
 
-`scene` selects a theme ID, an automatic or fixed period, and motion on/off. `layout` controls group gap in the 1920×1080 design coordinate space, divider visibility and HDMI tint opacity.
+## Local preview before using a TV
 
-Current phase boundaries: Dawn 05:30, Morning 08:00, Noon 09:00, Afternoon 14:30, Evening 17:00, Dusk 20:00, Night 22:00. Automatic mode blends for 15 minutes after each boundary. These are clock boundaries, not calculated sunrise/sunset times.
+See [the local preview instructions](GETTING_STARTED.md) for the simulated setup environment. Its app inventory and launch responses are mock data, and it does not connect to a TV. You can exercise first-run setup, app and HDMI edits, saving, cancellation and bad-config recovery locally. Passing those checks does not establish firmware compatibility or cold-boot performance.
 
-Before release: implement atomic import, export, reset and last-known-good recovery; reject unsupported versions without overwriting existing preferences. Wire the validated data into tile layout and remote navigation, then test unknown apps, missing icons and all supported group sizes. Do not run configuration values as commands.
+## Advanced configuration
 
-## Prepare your choices now
+`config/default.json` is now the shared versioned runtime contract. The build stages it as `launcher-config.json`; the native shell loads it and applies valid saved user choices in preference to that bundled default. Updating bundled defaults should not replace an existing valid user setup. Appearance and saved focus remain in the app's existing preference store.
 
 Create a private local copy from the repository root:
 
@@ -28,25 +31,41 @@ Create a private local copy from the repository root:
 mkdir -p local
 cp config/default.json local/config.json
 node tools/config.mjs local/config.json
+node tools/build.mjs --config local/config.json --zig /path/to/zig --python /path/to/python3
 ```
 
-`local/` is ignored by Git. After editing the JSON, rerun the validator. It prints the targets in display order. It does **not** transfer the configuration or apply it to the TV.
+`local/` is ignored by Git. The command validates and prints launch targets; it does **not** transfer anything to a TV. See [example-living-room.json](../config/example-living-room.json) for two apps and two inputs. JSON import/export is an advanced workflow; the on-screen editor is intended for ordinary changes.
 
-See [example-living-room.json](../config/example-living-room.json): two app entries and two HDMI entries, with the streaming box on physical HDMI 3 placed before the console on HDMI 1. App IDs in examples must be checked against the user's installed apps; installing Firewatch Home does not install or sign into those services. Labels are display text, not application identifiers.
+| Field | What it changes |
+| --- | --- |
+| `apps` | Ordered `{id, label, icon?}` entries; at most five |
+| `inputs` | Ordered `{port, label, icon?}` entries; physical ports 1–4 |
+| `clock.timeZone` | `system`, `UTC` or `Europe/London`; used by clock and automatic lighting together |
+| `clock.format` | `12h` or `24h` |
+| `scene` | Initial season (`autumn` or `winter`), period and motion defaults; existing saved Appearance choices take precedence |
+| `layout.groupGap` | Extra separation between the app and input groups in 1920×1080 design coordinates; `88.328125` preserves the full-row design |
+| `layout.divider` | Show or hide the faint divider when both groups have tiles |
+| `layout.inputTintOpacity` | HDMI tile tint intensity, from 0 to 0.3 |
 
-Prefer a future Apps & Inputs editor for everyday setup. JSON import/export should be an advanced option, not a requirement for using the home screen.
+The validator and native QML use the same ES5 JavaScript module, `src/native/LauncherConfig.js`. They reject unknown fields/versions, duplicate apps or physical ports, unsafe icon paths, control characters, unsupported timezones and invalid counts. Configurations are data, never shell commands. Rejected data produces a safe fallback rather than preventing the home screen from opening.
 
-## Where settings live in the current source
+The native preview uses Qt Settings for persistence and retains the previous valid configuration for recovery. It requests a settings sync before closing Save, but this QML API does not report filesystem write failures; disk-full/read-only failure reporting and proven power-loss durability still require a native storage adapter and device testing. The local mock tests editing and recovery, not those hardware guarantees.
 
-| Change | Current source | Caveat |
-| --- | --- | --- |
-| App IDs, labels, HDMI order and logo sizes/colours | `src/native/HomeControls.qml`: `targetIds`, `targetLabels`, `logoFiles`, `logoWidths`, `logoHeights`, `tints` | Keep entries aligned; runtime assumes five apps plus four inputs |
-| Tile counts, spacing and remote focus | `HomeControls.qml`: repeater, delegate positions, `select`, `activate`, `handleKey`, footer indices | Must change together; the JSON flexibility is not implemented |
-| Clock/date | `src/native/UKClock.js`, used by `HomeControls.qml` and `PaintedScene.qml` | UK-specific; configure display and scene clock together |
-| Lighting times | `src/native/SceneMath.js`: `phaseHours` | Current schedule uses fixed clock boundaries |
-| Wallpaper and preview mapping | `src/native/Appearance.js`, `themes/inventory.json` | Close-up uses its own full artwork; current menu previews share wide framing |
-| Saved appearance/focus | `src/native/main.qml`: `Settings` | Existing app-owned INI preferences; do not overwrite them during updates |
+Optional icons must be relative packaged PNG/SVG paths. They cannot be network URLs, absolute paths or `../` traversals. User-supplied image files should be reviewed and bundled deliberately; entering a path does not upload or fetch an image. No arbitrary file or theme importer is provided.
 
-For source-level experiments, start in a branch, preserve the current group sizes and update all aligned fields together. Removing a tile requires navigation/layout work, not just deleting its array entry. Logos referenced by the source are not bundled yet; supply appropriately licensed icons or implement a readable fallback before attempting a complete package.
+The currently supported explicit UK zone handles GMT/BST rather than hard-coding UTC+1. Arbitrary IANA zones await a compatible Qt timezone adapter; `system` follows the native process’s local time. Some firmware may expose UTC despite a regional clock in LG Home; choose an explicit supported zone if necessary. Changing the clock configuration does not modify the TV system clock.
 
-Appearance is already editable with the remote in the installed development app. Apps/HDMI editing, arbitrary timezones and theme importing are not yet available as settings screens. See [the portability milestones](PORTABILITY.md) for the proposed implementation.
+Current automatic lighting boundaries: Dawn 05:30, Morning 08:00, Noon 09:00, Afternoon 14:30, Evening 17:00, Dusk 20:00, Night 22:00. These are clock boundaries, not calculated sunrise/sunset times.
+
+## Source map
+
+| Area | Source |
+| --- | --- |
+| Shared validation, defaults, identity and tile geometry | `src/native/LauncherConfig.js` |
+| Launcher tiles, focus, fallback labels and footer actions | `src/native/HomeControls.qml` |
+| Remote-first draft editor | `src/native/AppsInputsPanel.qml` |
+| Platform calls, config loading and saved preferences | `src/native/main.qml` |
+| Clock formatting and zone conversion | `src/native/RuntimeClock.js` |
+| Wallpaper and preview mapping | `src/native/Appearance.js`, `themes/inventory.json` |
+
+Keep the standalone app separate from rooted Home/startup integration. Saving apps, HDMI names or appearance should not edit root services, update policy, input mappings or television picture settings.

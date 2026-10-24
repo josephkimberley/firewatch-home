@@ -38,3 +38,64 @@ for (const [name, mutate] of [
   ['invalid phase', c => c.scene.period = 'midday'],
   ['invisible gap', c => c.layout.groupGap = -2]
 ]) test(`rejects ${name}`, () => {const c = fresh(); mutate(c); assert.throws(() => validateConfig(c));});
+
+test('bundled JSON and QML fallback defaults cannot drift', async () => {
+  const {defaults} = await import('../tools/config.mjs');
+  assert.deepEqual(fresh(), defaults());
+});
+test('every supported tile count stays centred without collisions', async () => {
+  const {layout} = await import('../tools/config.mjs');
+  for(let apps=0;apps<=5;apps++) for(let inputs=0;inputs<=4;inputs++) {
+    if(!apps&&!inputs)continue;
+    const config=fresh();config.apps=config.apps.slice(0,apps);config.inputs=config.inputs.slice(0,inputs);
+    const metrics=layout(config), count=apps+inputs;
+    assert.equal(metrics.positions.length,count);
+    assert.equal(metrics.start+metrics.end,1920);
+    assert.ok(metrics.start>0 && metrics.end<1920);
+    assert.equal(metrics.dividerVisible,!!(apps&&inputs));
+    for(let i=1;i<count;i++) assert.ok(metrics.positions[i]>metrics.positions[i-1]+metrics.width);
+  }
+});
+test('full launcher keeps the approved positions and group separation', async () => {
+  const {layout}=await import('../tools/config.mjs');
+  const result=layout(fresh());
+  assert.equal(result.positions[0],288);
+  assert.equal(result.positions[4],856.3125);
+  assert.equal(result.positions[5],1086.71875);
+  assert.equal(result.positions[8],1512.953125);
+  assert.ok(Math.abs(result.dividerX-1030.546875)<1);
+});
+test('malformed and future configs recover without mutating original saved data', async () => {
+  const {resolve,defaults,parse}=await import('../tools/config.mjs');
+  for(const text of ['', '{', JSON.stringify({...fresh(),version:400}), 'x'.repeat(65537)]) {
+    const result=resolve(text);
+    assert.equal(result.usedFallback,true);assert.ok(result.error);
+    assert.deepEqual(result.config,defaults());
+    assert.throws(()=>parse(text));
+  }
+  const source=JSON.stringify(fresh());
+  const result=resolve(source);
+  assert.equal(result.usedFallback,false);assert.equal(result.error,'');
+  assert.deepEqual(result.config,JSON.parse(source));
+});
+test('valid labels remain plain data and app order is independent of identity', () => {
+  const config=fresh();config.apps=[{id:'org.example.media',label:'<b>Family & films</b>'}];config.inputs=[];
+  assert.equal(targets(config)[0].label,'<b>Family & films</b>');
+});
+test('existing focus is clamped for smaller configurations and all footers are reachable', async () => {
+  const {clampSelection}=await import('../tools/config.mjs');
+  assert.equal(clampSelection(8,1),3);
+  assert.equal(clampSelection(-1,1),0);
+  assert.equal(clampSelection(NaN,9),0);
+  assert.equal(clampSelection(4,9),4);
+  assert.equal(clampSelection(11,9),11);
+});
+for(const [name,mutate] of [
+  ['too many apps',c=>c.apps.push({id:'extra.app',label:'Extra'})],
+  ['too many inputs',c=>c.inputs.push({port:1,label:'Another'})],
+  ['unsupported scene',c=>c.scene.theme='custom-theme'],
+  ['data URI icon',c=>c.apps[0].icon='data:image/svg+xml,<svg/>'],
+  ['NaN layout',c=>c.layout.groupGap=NaN],
+  ['HTML icon extension',c=>c.apps[0].icon='something.html'],
+  ['empty label',c=>c.apps[0].label='   ']
+]) test(`rejects ${name}`,()=>{const config=fresh();mutate(config);assert.throws(()=>validateConfig(config));});
