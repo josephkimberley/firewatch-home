@@ -1,5 +1,7 @@
 # All artwork
 
+[Open the interactive gallery — hover, tap or use the keyboard to explore all 42 landscapes](https://josephkimberley.github.io/firewatch-home/).
+
 [← Back to Firewatch Home](../README.md)
 
 Browse all **42 wallpapers** across six scene variants and seven times of day. Click any preview to open the full-resolution artwork. These are the wallpapers themselves, without the clock or launcher controls.

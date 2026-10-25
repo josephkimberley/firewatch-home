@@ -15,6 +15,8 @@ The preview is suitable for gathering desktop and optional test-TV feedback, not
 - [x] Desktop mock and production-control navigation tests; no TV required.
 - [x] Experimental status, volunteer testing checklist and structured success/problem report form.
 - [x] Dry-run installation plan, mock/read-only preflight and app-only candidate installer.
+- [x] Prebuilt experimental release and installer kit prepared; see [preview 1 release notes](docs/releases/v3.1.0-preview.1.md).
+- [x] Public interactive gallery with all 42 artwork choices.
 
 ## Before calling it a supported standalone release
 

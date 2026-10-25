@@ -10,7 +10,7 @@ Golden valleys, snow-covered forests and a lookout above the trees. Firewatch Ho
 
 **42 wallpapers · Seven times of day · Autumn & winter · Remote-friendly controls**
 
-**[Explore the artwork →](docs/GALLERY.md)** &nbsp; · &nbsp; **[Try the desktop preview](#try-it)** &nbsp; · &nbsp; **[Help test on webOS](docs/COMMUNITY_TESTING.md)**
+**[Explore the interactive gallery →](https://josephkimberley.github.io/firewatch-home/)** &nbsp; · &nbsp; **[Try the desktop preview](#try-it)** &nbsp; · &nbsp; **[Help test on webOS](docs/COMMUNITY_TESTING.md)**
 
 An unofficial, non-commercial fan project. Original Firewatch artwork belongs to its respective owners; [credits and licence details](#licences-and-fan-project-notice).
 
@@ -60,7 +60,7 @@ One landscape, seven different moods. Each image below stitches together slices 
 
 **[Launch the desktop preview →](preview/README.md)**
 
-**Have a rooted test TV?** Follow the build and app-only installation guide, then share what works on your model. There is no ready-made release download yet. The installer refuses to overwrite an existing Firewatch/Minimal Home installation.
+**Have a rooted test TV?** [Download the experimental prebuilt app and installer kit](https://github.com/josephkimberley/firewatch-home/releases/tag/v3.1.0-preview.1), then follow [Getting started](docs/GETTING_STARTED.md). No compiler is needed for the download. Fresh-TV compatibility is still unverified, and the installer refuses to overwrite an existing Firewatch/Minimal Home installation.
 
 **[Build & installation guide](docs/GETTING_STARTED.md)** · **[Testing checklist](docs/COMMUNITY_TESTING.md)** · **[Report your results](https://github.com/josephkimberley/firewatch-home/issues/new?template=preview-report.yml)**
 

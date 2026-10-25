@@ -40,7 +40,7 @@ Changes in this preview last only until you close it. Its static background does
 
 Only choose this route if you already have a rooted test TV, working root SSH access and a known way to return to stock LG Home. Rooting instructions are outside this preview. You do not need to use your daily TV.
 
-1. Follow [Getting started](GETTING_STARTED.md) to build the package. There is no tested release download yet; do not assume the screenshots imply a ready-made installer.
+1. Follow [Getting started](GETTING_STARTED.md) to download the prebuilt experimental app and installer kit, or build from source. The download has local validation only; the screenshots do not certify a fresh-TV installation.
 2. Run the documented **dry run** first. It validates the local package and makes no TV connection.
 3. If you choose to proceed, run `--doctor` against **your test TV**. This reads prerequisites only; passing is not a compatibility certificate. The tool requires root SSH, a supported ARM runtime, `qml-runner`, `luna-send` and the Homebrew persistence directory.
 4. Read [Recovery](RECOVERY.md), then use the explicitly documented `--apply` command. That installs the standalone app only. If an existing app ID or unsupported prerequisite is reported, stop and include that result in your report.

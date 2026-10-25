@@ -2,7 +2,7 @@
 
 Firewatch Home is an **experimental community preview** with a buildable standalone package, a remote-friendly Apps & Inputs editor, and a desktop mock. It is not yet a verified replacement Home installer for arbitrary LG TVs. The package has been built and tested locally; a fresh TV installation still needs validation.
 
-For a short test session, follow the [community testing checklist](COMMUNITY_TESTING.md). Report successful tests as well as problems; include the exact version and environment. There is no tested downloadable release yet: hardware testers currently need to build the package.
+For a short test session, follow the [community testing checklist](COMMUNITY_TESTING.md). Report successful tests as well as problems; include the exact version and environment. A [prebuilt experimental release](https://github.com/josephkimberley/firewatch-home/releases/tag/v3.1.0-preview.1) is available; no compiler is needed for that download. Fresh-TV validation is still outstanding.
 
 ## Try it without a TV
 
@@ -16,7 +16,13 @@ python3 -m venv .venv-preview
 
 Use arrows and Enter, with Escape for Back. F3 simulates unavailable app discovery; F4 simulates a save failure. These test UI behaviour, not LG boot time or graphics performance.
 
-## Build the package
+## Download the prebuilt experimental app
+
+From the [release page](https://github.com/josephkimberley/firewatch-home/releases/tag/v3.1.0-preview.1), download the `.ipk`, its `.ipk.sha256` file and `firewatch-home-3.1.0-preview-tools.zip`. Extract the kit, place the IPK and checksum beside `START-HERE.md`, and follow that document. The kit needs Python 3.9+ and an SSH client, but no compiler. Its first command is a local-only dry run; a separate doctor checks prerequisites read-only. Installation requires an explicit `--apply`. See the compatibility limitations below before installing.
+
+The commands below use the repository build output under `dist/`; the installer-kit instructions use the downloaded files in the kit folder. Choose one route.
+
+## Build the package (optional)
 
 You need Node 20+, Python 3.9+ and Zig 0.13.0. The build has no npm dependencies and does not download or install a compiler automatically.
 
