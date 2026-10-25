@@ -1,14 +1,20 @@
 # Firewatch Home for webOS
 
+**A quieter home screen for your LG TV.**
+
 [![Valley at Evening — Firewatch Home running on an LG TV](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg)
 
-*Valley · Evening*
+*Valley · Evening — captured on the TV.*
 
-An unofficial Firewatch-themed home screen for LG webOS TVs: app shortcuts, HDMI inputs, a clock and animated landscapes that change through the day. Not affiliated with or endorsed by Campo Santo.
+Golden valleys, snow-covered forests and a lookout above the trees. Firewatch Home puts your favourite apps and HDMI inputs in front of a landscape that changes with the time of day, with birds, moving stars and subtle tree motion.
 
-**[Browse all 42 wallpapers →](docs/GALLERY.md)**
+**42 wallpapers · Seven times of day · Autumn & winter · Remote-friendly controls**
 
-## Four favourites
+**[Explore the artwork →](docs/GALLERY.md)** &nbsp; · &nbsp; **[Try the desktop preview](#try-it)** &nbsp; · &nbsp; **[Help test on webOS](docs/COMMUNITY_TESTING.md)**
+
+An unofficial, non-commercial fan project. Original Firewatch artwork belongs to its respective owners; [credits and licence details](#licences-and-fan-project-notice).
+
+## Find your favourite view
 
 | Valley · Morning | Snowy Valley · Dusk |
 | --- | --- |
@@ -16,11 +22,13 @@ An unofficial Firewatch-themed home screen for LG webOS TVs: app shortcuts, HDMI
 | **Lookout · Afternoon** | **Lookout Close-up · Noon** |
 | [![Lookout Afternoon with clock and launcher controls](docs/images/lookout-afternoon.jpg)](docs/images/lookout-afternoon.jpg) | [![Lookout Close-up Noon with clock and launcher controls](docs/images/lookout-close-noon.jpg)](docs/images/lookout-close-noon.jpg) |
 
-Click any image for the full **1920 × 1080** TV capture.
+Click any image for the full **1920 × 1080** TV capture. These show the personal development installation; the community preview is described below.
+
+Pick a wide valley or a closer view of the lookout. Add snow, choose your favourite light, or let Auto follow the clock. Motion has its own toggle. Your apps and inputs stay within reach without covering the view.
 
 ## From dawn to night
 
-Each panorama combines seven vertical slices of the same scene, captured directly on the TV. The clock, app buttons and controls are included in the captures.
+One landscape, seven different moods. Each image below stitches together slices from the TV captures, from the first light of dawn to night. Select a favourite time or use Auto; these panoramas show the available looks, not a continuous animated transition.
 
 **Left → right: Dawn · Morning · Noon · Afternoon · Evening · Dusk · Night**
 
@@ -44,44 +52,50 @@ Each panorama combines seven vertical slices of the same scene, captured directl
 
 [![Lookout Close-up panorama progressing from Dawn at the left to Night at the right](docs/images/lookout-close-day-to-night.png)](docs/images/lookout-close-day-to-night.png)
 
-## Experimental community preview
+## Try it
 
-> **Experimental community preview · 3.1.0.** Locally tested, but the community package has not yet been validated on a fresh TV. It installs as a standalone app: automatic Home replacement, startup optimisation and screensaver integration are not included.
->
-> **[Try it and follow the testing checklist](docs/COMMUNITY_TESTING.md)** · **[Report results or a problem](https://github.com/josephkimberley/firewatch-home/issues/new?template=preview-report.yml)**
+> **Experimental community preview · 3.1.0.** The community package is locally tested but not yet validated on a fresh TV. It installs as a standalone app. Automatic Home replacement, startup optimisation and screensaver integration are not included.
 
-**For volunteers comfortable testing unfinished software.** Start with the desktop preview; hardware testing is optional and requires a suitable rooted test TV. No community candidate changes have been deployed to the owner's daily-use TV.
+**Curious? Start on your computer.** The desktop preview runs the real setup controls in a normal window, using simulated apps and a static wallpaper. It never connects to a TV. Use arrows, Enter and Escape to try it like a remote.
 
-Choose your installed apps, reorder them, name and arrange HDMI inputs, and save from the remote. The original Appearance controls and artwork remain. No source edits or AI subscription are needed to use the setup panel.
+**[Launch the desktop preview →](preview/README.md)**
+
+**Have a rooted test TV?** Follow the build and app-only installation guide, then share what works on your model. There is no ready-made release download yet. The installer refuses to overwrite an existing Firewatch/Minimal Home installation.
+
+**[Build & installation guide](docs/GETTING_STARTED.md)** · **[Testing checklist](docs/COMMUNITY_TESTING.md)** · **[Report your results](https://github.com/josephkimberley/firewatch-home/issues/new?template=preview-report.yml)**
+
+## Make it yours
+
+Choose apps from the installed-app list, put your favourites first, rename HDMI inputs and hide the ones you do not use. Save from the remote. No source edits or AI subscription are needed to use the setup panel.
 
 [![Apps and Inputs editor in the desktop mock](docs/images/community-setup.png)](docs/images/community-setup.png)
 
-*Desktop mock of the real setup controls, using a static wallpaper and simulated apps—not a TV capture or performance test.*
+*The actual setup controls in the desktop mock. App discovery and saves are simulated here; this is not a TV performance demonstration.*
 
-- **[Try the desktop preview](preview/README.md)** — no TV connection; arrows, Enter and Escape work like the remote.
-- **[Build and install the standalone candidate](docs/GETTING_STARTED.md)** — pinned build, checksummed package and dry-run installer.
-- **[Customise apps, HDMI inputs and clock](docs/CUSTOMIZATION.md)** — on-screen setup or a validated JSON configuration.
-- [Build details](docs/BUILD.md) · [Test record](docs/TESTING.md) · [Portability and remaining work](docs/PORTABILITY.md) · [Recovery](docs/RECOVERY.md)
-- [Optional prompts for Codex or Claude](docs/AI_ASSISTED_SETUP.md) · [Ideas studied from CleanYourTV and Slopbro](docs/UPSTREAM_IDEAS.md)
+- **Your shortcuts:** up to five apps and four HDMI inputs, in your preferred order.
+- **Your clock:** 12- or 24-hour display, with system, UTC or London time; Auto lighting follows the same clock.
+- **Your scenery:** Valley, Snowy Valley, Lookout and Snowy Lookout, with close-up options for both Lookout seasons.
+- **Simple controls:** Back closes panels. Red or the on-screen LG Home action opens stock Home while the app is active.
+- **Bundled artwork:** all 42 wallpapers are included in the built package; no computer needs to serve them to the TV.
 
-## Included
+[Apps, inputs and clock guide →](docs/CUSTOMIZATION.md)
 
-- Native QML/JavaScript renderer and a small, reproducibly compiled ARM launcher.
-- Valley and Lookout, Autumn and Winter, including Lookout close-up: 42 wallpapers and seven times of day.
-- Floating Cards Appearance, separate Auto and Motion controls; no Ember.
-- Apps & Inputs editor with discovered-app selection, rename, reorder, hide, Save and Cancel.
-- Up to five apps and four HDMI shortcuts; readable labels when a logo is unavailable.
-- Configurable system/UTC/London clock and 12/24-hour format; matching automatic lighting.
-- Back dismisses panels. Red and an on-screen action request LG Home while this app is active.
-- Original app icons, Barlow fonts with OFL notice, asset checks and desktop/mock tests.
+## Help it reach more TVs
 
-The package retains the existing Minimal Home app ID. The candidate installer refuses an existing installation. Default-Home/startup takeover and screensaver integration are **not** included in the standalone package. See the [release checklist](RELEASE.md).
+The most useful contribution right now is a clear test result: your model and firmware, the checks you tried, and what worked or failed. Desktop feedback is welcome too. You do not need to use your daily TV to help.
+
+Developers can help with native LG compatibility, reliable updates and recovery, and eventually portable Home/startup integration. The [test record](docs/TESTING.md) separates what has been simulated from what still needs hardware validation.
+
+**[Send a test report](https://github.com/josephkimberley/firewatch-home/issues/new?template=preview-report.yml)** · **[See remaining work](RELEASE.md)** · **[Portability notes](docs/PORTABILITY.md)**
 
 ## Hardware and speed
 
 The development TV is an LG OLED48C24LA, webOS 24 / 9.2.2-61, firmware 23.25.55. The owner reported approximately five seconds from Power to forest with Quick Start+ off after the startup fixes. **That result is from the personal installation, not this standalone community package.** The startup fixes are not included here, and no community cold-boot speed is claimed. Native LG modules and any future rooted integration require explicit compatibility handling.
 
-## Layout
+<details>
+<summary><strong>For developers: source layout, build and local checks</strong></summary>
+
+### Source layout
 
 - `src/native/`: current QML, shaders, fonts and approved theme files.
 - `src/launcher.c`: native entry point; `tools/build.mjs` builds and packages it.
@@ -92,7 +106,7 @@ The development TV is an LG OLED48C24LA, webOS 24 / 9.2.2-61, firmware 23.25.55.
 - `tools/install_app.py`: dry-run/read-only/app-only candidate installation.
 - `docs/`: architecture, customization, artwork and recovery requirements.
 
-## Local checks
+### Local checks
 
 Node.js 20 or newer, no external dependencies:
 
@@ -102,6 +116,10 @@ node tools/config.mjs config/default.json
 ```
 
 These commands do not contact or modify a TV. Optional app-only installation is documented in [Getting started](docs/GETTING_STARTED.md); fresh-TV compatibility, upgrades and complete uninstall remain unverified. See the [testing checklist](docs/COMMUNITY_TESTING.md) before volunteering.
+
+[Build details](docs/BUILD.md) · [Recovery](docs/RECOVERY.md) · [Optional Codex / Claude prompts](docs/AI_ASSISTED_SETUP.md) · [Upstream ideas and credits](docs/UPSTREAM_IDEAS.md)
+
+</details>
 
 ## Licences and fan-project notice
 
