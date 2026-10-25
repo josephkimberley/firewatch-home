@@ -10,13 +10,13 @@ Rectangle {
     FontLoader { id: titleFont; source: "../../src/native/fonts/BarlowCondensed-SemiBold.ttf" }
     FontLoader { id: bodyFont; source: "../../src/native/fonts/BarlowCondensed-Regular.ttf" }
     Text {
-        x: 52; y: 500
+        anchors.horizontalCenter: parent.horizontalCenter; y: 500
         text: "FIREWATCH HOME"
         font.family: titleFont.name; font.pixelSize: 56; font.letterSpacing: 2
         color: "#fff3d9"
     }
     Text {
-        x: 55; y: 573
+        anchors.horizontalCenter: parent.horizontalCenter; y: 573
         text: "A HOME SCREEN FOR LG webOS TVs  ·  UNOFFICIAL FAN PROJECT"
         font.family: bodyFont.name; font.pixelSize: 19; font.letterSpacing: 1.3
         color: "#e8cfb0"
