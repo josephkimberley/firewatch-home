@@ -1,16 +1,18 @@
 # Firewatch Home for webOS
 
-**A quieter home screen for your LG TV.**
+### [View all 42 wallpapers in the interactive gallery →](https://josephkimberley.github.io/firewatch-home/)
+
+A Firewatch-themed launcher for LG webOS TVs.
 
 [![Valley at Evening — Firewatch Home running on an LG TV](docs/images/valley-evening.jpg)](docs/images/valley-evening.jpg)
 
 *Valley · Evening — captured on the TV.*
 
-Golden valleys, snow-covered forests and a lookout above the trees. Firewatch Home puts your favourite apps and HDMI inputs in front of a landscape that changes with the time of day, with birds, moving stars and subtle tree motion.
+Apps and HDMI shortcuts over Firewatch-themed landscapes, with automatic time-of-day colours, birds, moving stars and subtle tree motion.
 
 **42 wallpapers · Seven times of day · Autumn & winter · Remote-friendly controls**
 
-**[Explore the interactive gallery →](https://josephkimberley.github.io/firewatch-home/)** &nbsp; · &nbsp; **[Try the desktop preview](#try-it)** &nbsp; · &nbsp; **[Help test on webOS](docs/COMMUNITY_TESTING.md)**
+**[Try the desktop preview](#try-it)** &nbsp; · &nbsp; **[Help test on webOS](docs/COMMUNITY_TESTING.md)**
 
 An unofficial, non-commercial fan project. Original Firewatch artwork belongs to its respective owners; [credits and licence details](#licences-and-fan-project-notice).
 
